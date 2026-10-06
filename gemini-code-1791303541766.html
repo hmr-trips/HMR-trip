@@ -1,0 +1,2940 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Mountain Expeditions — Shoolini (Solan) & Hamirpur to Manali</title>
+  <meta name="description" content="Official 4-day verified student expeditions to Manali, Kasol, Tosh, Sissu & Atal Tunnel. Confirmed Shoolini University (Solan) batch (23-26 Oct) & Hamirpur winter batch (10-13 Dec).">
+
+  <!-- Editorial Typography & Monospace Accents -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            stone: {
+              50: '#FAF8F5',
+              100: '#F4EFEA',
+              150: '#ECE5DD',
+              200: '#E4DDD3',
+              300: '#D5CABE',
+              400: '#B8A897',
+              700: '#4D443B',
+              900: '#231E19',
+            },
+            ink: {
+              950: '#0E1310',
+              900: '#141A16',
+              850: '#1B241F',
+              800: '#24302A',
+            },
+            alpine: {
+              pine: '#1E3B2B',
+              pineDark: '#14271D',
+              mist: '#D6E2DB',
+            },
+            terracotta: {
+              400: '#D26035',
+              500: '#BD5027',
+              600: '#9E3F1C',
+            }
+          },
+          fontFamily: {
+            serif: ['"Instrument Serif"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'SFMono-Regular', 'Menlo', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .border-hairline { border-color: #E4DDD3; }
+    .border-hairline-dark { border-color: #24302A; }
+
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #FAF8F5; }
+    ::-webkit-scrollbar-thumb { background: #D5CABE; }
+    ::-webkit-scrollbar-thumb:hover { background: #BD5027; }
+
+    .paper-texture {
+      background-image: radial-gradient(#141A16 0.35px, transparent 0.35px);
+      background-size: 24px 24px;
+      background-color: #FAF8F5;
+    }
+
+    details summary::-webkit-details-marker { display: none; }
+    details summary { list-style: none; }
+    details[open] summary svg { transform: rotate(180deg); }
+
+    .barcode-bar {
+      display: inline-block;
+      height: 38px;
+      background-color: #0E1310;
+      margin-right: 2px;
+    }
+
+    .trip-card-active {
+      border-color: #BD5027 !important;
+      background-color: #FFFFFF !important;
+      box-shadow: 0 10px 25px -5px rgba(189, 80, 39, 0.15);
+    }
+  </style>
+</head>
+
+<body class="paper-texture text-ink-950 font-sans antialiased selection:bg-terracotta-500 selection:text-white min-h-screen flex flex-col justify-between">
+
+  <!-- TOP DISPATCH ANNOUNCEMENT BAR -->
+  <aside aria-label="Expedition Dispatch" class="bg-ink-950 text-stone-300 text-[11px] font-mono py-2.5 px-4 border-b border-ink-850">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 tracking-wider uppercase">
+      
+      <!-- Announcement: Solan (Default) -->
+      <div id="topbar-solan" class="flex items-center gap-2.5 flex-wrap justify-center">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-stone-100 font-bold bg-terracotta-500 text-white px-2 py-0.5 text-[10px]">FEATURED & CONFIRMED:</span>
+        <span class="text-white font-bold">SOLAN → MANALI & TOSH (SHOOLINI UNIV)</span>
+        <span class="text-terracotta-400 font-bold">23 OCT — 26 OCT</span>
+        <span class="text-stone-500">|</span>
+        <span class="text-emerald-400 font-bold">₹5,799 ALL-IN</span>
+      </div>
+
+      <!-- Announcement: Hamirpur -->
+      <div id="topbar-hamirpur" class="hidden flex items-center gap-2.5 flex-wrap justify-center">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-stone-100 font-semibold">HAMIRPUR → MANALI & SISSU:</span>
+        <span class="text-terracotta-400 font-bold">10 DEC — 13 DEC</span>
+        <span class="text-stone-500">|</span>
+        <span class="text-emerald-400 font-bold">₹0 DUE TODAY · NET ₹4,299</span>
+      </div>
+
+      <div class="flex items-center gap-4 text-stone-400">
+        <a href="https://wa.me/919317743024" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+          <span>WHATSAPP DESK: 9317743024</span>
+        </a>
+        <span class="text-stone-500">·</span>
+        <a id="topbar-cta" href="#booking-section" class="text-terracotta-400 font-bold underline hover:text-white transition">
+          BOOK NOW (CONFIRMED) →
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- STICKY MASTHEAD NAVIGATION -->
+  <header class="sticky top-0 z-40 bg-stone-50/95 backdrop-blur-md border-b border-hairline">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="h-20 flex items-center justify-between">
+        
+        <!-- Brand Mark -->
+        <a href="#" class="group flex items-center gap-3.5">
+          <div class="w-10 h-10 border border-ink-950 flex items-center justify-center font-serif text-2xl font-bold bg-white text-ink-950 group-hover:bg-ink-950 group-hover:text-white transition-colors duration-200">
+            H
+          </div>
+          <div class="flex flex-col">
+            <span class="font-serif text-2xl tracking-tight leading-none text-ink-950">
+              HMR <span class="italic font-normal">trips</span>
+            </span>
+            <span class="text-[9px] font-mono uppercase tracking-widest text-stone-700 mt-1">
+              Student Mountain Expeditions · Himachal Pradesh
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Items -->
+        <nav class="hidden lg:flex items-center gap-6 text-[12px] font-mono uppercase tracking-widest text-stone-700">
+          <a href="#trip-selector-anchor" class="text-terracotta-600 font-bold hover:text-terracotta-500 transition-colors flex items-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-terracotta-500 animate-pulse"></span>
+            01. Select Trip
+          </a>
+          <a href="#destinations" class="hover:text-terracotta-500 transition-colors">02. Destinations</a>
+          <a href="#flow" class="hover:text-terracotta-500 transition-colors">03. Booking Flow</a>
+          <a href="#itinerary" class="hover:text-terracotta-500 transition-colors">04. Route Log</a>
+          <a href="#highlight-session" class="hover:text-terracotta-500 transition-colors">05. Special Highlights</a>
+          <a href="#ledger" class="hover:text-terracotta-500 transition-colors">06. Cost Ledger</a>
+          <a href="#faq" class="hover:text-terracotta-500 transition-colors">07. FAQs</a>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="hidden sm:flex items-center gap-4">
+          <a href="https://wa.me/919317743024?text=Hi%2C%20I%E2%80%99m%20asking%20about%20the%20student%20expeditions." target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-stone-700 hover:text-ink-950 transition flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span>WA: 9317743024</span>
+          </a>
+          <a id="nav-cta-btn" href="#booking-section" class="px-5 py-2.5 bg-ink-950 text-stone-100 text-xs font-mono uppercase tracking-widest hover:bg-terracotta-500 transition-colors duration-200 flex items-center gap-2">
+            <span id="nav-cta-text">Book Now</span>
+            <span id="nav-cta-pill" class="bg-emerald-400 text-ink-950 font-bold px-1.5 py-0.2 rounded text-[10px]">CONFIRMED</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobile-toggle" type="button" aria-label="Toggle navigation menu" class="lg:hidden p-2 text-ink-950 hover:bg-stone-150 transition">
+          <svg id="hamburger-svg" class="w-6 h-6 stroke-current" fill="none" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.8" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="close-svg" class="w-6 h-6 stroke-current hidden" fill="none" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.8" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="hidden lg:hidden border-t border-hairline bg-stone-50 px-6 py-6 font-mono text-xs uppercase tracking-wider space-y-4">
+      <a href="#trip-selector-anchor" class="mobile-nav-item block py-2 border-b border-hairline text-terracotta-600 font-bold">01. Select Trip (Solan / Hamirpur)</a>
+      <a href="#destinations" class="mobile-nav-item block py-2 border-b border-hairline text-stone-700">02. Featured Destinations</a>
+      <a href="#flow" class="mobile-nav-item block py-2 border-b border-hairline text-stone-700">03. Booking Workflow</a>
+      <a href="#itinerary" class="mobile-nav-item block py-2 border-b border-hairline text-stone-700">04. 4-Day Route Itinerary</a>
+      <a href="#highlight-session" class="mobile-nav-item block py-2 border-b border-hairline text-stone-700">05. Kasol & Tosh Highlights</a>
+      <a href="#ledger" class="mobile-nav-item block py-2 border-b border-hairline text-stone-700">06. Cost Breakdown & Ledger</a>
+      <a href="#faq" class="mobile-nav-item block py-2 border-b border-hairline text-stone-700">07. FAQs & Policies</a>
+      <div class="pt-2 flex flex-col gap-3">
+        <a href="https://wa.me/919317743024" target="_blank" class="py-2.5 text-center border border-emerald-600 text-emerald-800 bg-emerald-50 font-bold flex items-center justify-center gap-2">
+          <span>WhatsApp Desk: 9317743024</span>
+        </a>
+        <a id="mobile-drawer-cta" href="#booking-section" class="mobile-nav-item w-full py-3.5 text-center bg-ink-950 text-white font-mono uppercase tracking-widest flex items-center justify-center gap-2">
+          <span>Book Now (Solan Batch)</span>
+          <span class="bg-emerald-400 text-ink-950 font-bold px-1.5 py-0.5 text-[10px]">CONFIRMED</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SECTION 00: MAIN TRIP SELECTION ARCHITECTURE -->
+    <section id="trip-selector-anchor" class="bg-stone-150/70 border-b border-hairline py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-3 pb-5 border-b border-hairline">
+          <div>
+            <span class="text-[11px] font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">TRIP ORIGIN & BATCH SELECTION</span>
+            <h2 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal">
+              Choose Your Departure Circuit
+            </h2>
+          </div>
+          <p class="text-xs font-mono text-stone-600 uppercase tracking-wider max-w-md">
+            Separate batches for Shoolini University (Solan) and Hamirpur. Select a card below to dynamically switch the entire website to that trip.
+          </p>
+        </div>
+
+        <!-- THE TWO SEPARATE TRIP CARDS (SHOOLINI FIRST & HIGHLIGHTED) -->
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+          
+          <!-- TRIP 1: SOLAN -> MANALI (FIRST, HIGH-PRIORITY, CONFIRMED) -->
+          <div 
+            id="trip-card-solan" 
+            onclick="setTripMode('solan')"
+            class="trip-card-active cursor-pointer p-6 sm:p-7 border-2 transition-all duration-300 relative bg-white space-y-4"
+          >
+            <div class="flex items-center justify-between gap-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-terracotta-500 text-white font-mono text-[10px] uppercase tracking-widest font-bold">
+                <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+                ★ FEATURED & CONFIRMED BATCH
+              </span>
+              <span id="active-badge-solan" class="font-mono text-[11px] uppercase tracking-wider text-emerald-700 bg-emerald-50 border border-emerald-300 px-2 py-0.5 font-bold">
+                ACTIVE SELECTION ✓
+              </span>
+            </div>
+
+            <div>
+              <div class="text-xs font-mono uppercase text-terracotta-500 tracking-widest font-bold">SHOOLINI UNIVERSITY, SOLAN</div>
+              <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-0.5">
+                SOLAN → MANALI & TOSH
+              </h3>
+              <p class="text-stone-600 text-xs sm:text-sm font-sans mt-1">
+                4-Day Manali, Kasol & Tosh Valley Student Expedition with Atal Tunnel, Sissu & DJ Party.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 border-t border-hairline font-mono text-xs">
+              <div>
+                <span class="text-[10px] uppercase text-stone-400 block">Dates</span>
+                <span class="font-bold text-ink-950 text-sm">23 Oct — 26 Oct</span>
+              </div>
+              <div>
+                <span class="text-[10px] uppercase text-stone-400 block">Boarding Point</span>
+                <span class="font-bold text-ink-950 text-xs sm:text-sm">Shoolini University</span>
+              </div>
+              <div class="col-span-2 sm:col-span-1">
+                <span class="text-[10px] uppercase text-stone-400 block">Total Fare</span>
+                <span class="font-bold text-terracotta-500 text-lg">₹5,799 <span class="text-[10px] text-stone-600 font-normal">/person</span></span>
+              </div>
+            </div>
+
+            <div class="pt-1 flex items-center justify-between text-xs font-mono">
+              <span class="text-stone-500 text-[11px]">Private room for couples available (extra)</span>
+              <span class="text-terracotta-500 font-bold uppercase underline">View Solan Trip Details →</span>
+            </div>
+          </div>
+
+          <!-- TRIP 2: HAMIRPUR -> MANALI (SECOND, ORIGINAL EXPEDITION) -->
+          <div 
+            id="trip-card-hamirpur" 
+            onclick="setTripMode('hamirpur')"
+            class="cursor-pointer p-6 sm:p-7 border border-hairline transition-all duration-300 relative bg-stone-50 hover:bg-white space-y-4"
+          >
+            <div class="flex items-center justify-between gap-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-stone-200 text-ink-950 font-mono text-[10px] uppercase tracking-widest font-bold">
+                HAMIRPUR SQUAD RUN · WINTER BATCH
+              </span>
+              <span id="active-badge-hamirpur" class="hidden font-mono text-[11px] uppercase tracking-wider text-emerald-700 bg-emerald-50 border border-emerald-300 px-2 py-0.5 font-bold">
+                ACTIVE SELECTION ✓
+              </span>
+            </div>
+
+            <div>
+              <div class="text-xs font-mono uppercase text-stone-500 tracking-widest font-bold">ORIGINAL EXPEDITION // HAMIRPUR ORIGIN</div>
+              <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-0.5">
+                HAMIRPUR → MANALI & SISSU
+              </h3>
+              <p class="text-stone-600 text-xs sm:text-sm font-sans mt-1">
+                4-Day Winter Mountain Expedition to Atal Tunnel, Sissu snowfields, Jogini & Kasol Riverside.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 border-t border-hairline font-mono text-xs">
+              <div>
+                <span class="text-[10px] uppercase text-stone-400 block">Dates</span>
+                <span class="font-bold text-ink-950 text-sm">10 Dec — 13 Dec</span>
+              </div>
+              <div>
+                <span class="text-[10px] uppercase text-stone-400 block">Boarding Point</span>
+                <span class="font-bold text-ink-950 text-xs sm:text-sm">NIT / Bus Stand</span>
+              </div>
+              <div class="col-span-2 sm:col-span-1">
+                <span class="text-[10px] uppercase text-stone-400 block">Total Fare</span>
+                <span class="font-bold text-ink-950 text-lg">₹4,299 <span class="text-[10px] text-emerald-700 font-bold">(₹0 Today)</span></span>
+              </div>
+            </div>
+
+            <div class="pt-1 flex items-center justify-between text-xs font-mono">
+              <span class="text-stone-500 text-[11px]">Zero advance today · Priority Pool</span>
+              <span class="text-stone-700 font-bold uppercase underline">View Hamirpur Trip Details →</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HERO SECTION (DYNAMICALLY SWITCHES BETWEEN SOLAN & HAMIRPUR) -->
+    <section class="border-b border-hairline pt-10 pb-16 md:py-20 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Metadata Header -->
+        <div class="flex flex-wrap items-center justify-between gap-3 pb-6 border-b border-hairline text-xs font-mono uppercase tracking-wider text-stone-700">
+          <div class="flex items-center gap-2.5">
+            <span id="hero-meta-badge" class="bg-terracotta-500 text-white px-2 py-0.5 font-bold">[CONFIRMED BATCH]</span>
+            <span id="hero-meta-dates" class="font-bold text-ink-950">23 OCT — 26 OCT (4D / 3N)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span id="hero-meta-pill" class="bg-emerald-50 text-emerald-800 border border-emerald-300 px-2.5 py-0.5 text-[10px] font-bold">
+              SEAT BOOKINGS OPEN
+            </span>
+            <span class="text-stone-400 hidden sm:inline">·</span>
+            <span id="hero-meta-origin" class="hidden sm:inline text-stone-500">ORIGIN: SHOOLINI UNIVERSITY, SOLAN</span>
+          </div>
+        </div>
+
+        <!-- Editorial Grid Layout -->
+        <div class="mt-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          
+          <!-- Left Column (7 Cols) -->
+          <div class="lg:col-span-7 space-y-6">
+            
+            <div id="hero-tag-strip" class="inline-flex items-center gap-2 px-3 py-1 border border-ink-950/20 text-xs font-mono uppercase tracking-widest text-ink-950 bg-stone-100">
+              <span id="hero-tag-text">SHOOLINI UNIVERSITY EXPEDITION</span>
+              <span id="hero-tag-dates" class="text-terracotta-500 font-bold">/ 23 — 26 OCTOBER</span>
+            </div>
+
+            <!-- Dynamic Headline -->
+            <div id="hero-heading-solan">
+              <h1 class="font-serif text-5xl sm:text-7xl lg:text-8xl tracking-tight text-ink-950 leading-[0.95] font-normal text-balance">
+                Solan <br>
+                <span class="italic text-terracotta-500">to</span> Manali, Kasol <br>
+                <span class="text-3xl sm:text-5xl lg:text-6xl text-stone-700 font-light">& Tosh Valley.</span>
+              </h1>
+            </div>
+
+            <div id="hero-heading-hamirpur" class="hidden">
+              <h1 class="font-serif text-5xl sm:text-7xl lg:text-8xl tracking-tight text-ink-950 leading-[0.95] font-normal text-balance">
+                Hamirpur <br>
+                <span class="italic text-terracotta-500">to</span> Manali, Sissu <br>
+                <span class="text-3xl sm:text-5xl lg:text-6xl text-stone-700 font-light">& Kasol Riverside.</span>
+              </h1>
+            </div>
+
+            <!-- All-Inclusive Price Headline -->
+            <div class="border-2 border-terracotta-500 bg-white p-5 sm:p-6 space-y-3">
+              <p id="hero-price-title" class="font-serif text-3xl sm:text-5xl text-ink-950 leading-tight font-normal">
+                Travel · Hotel Stay · Breakfast · Dinner · Tosh Excursion · DJ Party <span class="italic text-terracotta-500">&amp;</span> Sightseeing
+              </p>
+              <p class="font-serif text-2xl sm:text-4xl text-stone-700 font-light leading-tight">
+                All included in just <span id="hero-price-val" class="font-bold text-terracotta-500 text-4xl sm:text-6xl whitespace-nowrap">₹5,799</span>
+                <span id="hero-price-sub" class="text-xs font-mono text-stone-500 block sm:inline mt-1 sm:mt-0 font-normal">/ person</span>
+              </p>
+            </div>
+
+            <!-- Clear Room Policy Note (Strictly Specified) -->
+            <div id="couples-room-notice" class="border border-amber-300 bg-amber-50/70 p-4 font-mono text-xs text-amber-950 space-y-1">
+              <div class="flex items-center gap-2 font-bold uppercase text-amber-900">
+                <span class="w-2 h-2 rounded-full bg-amber-600"></span>
+                ROOM ACCOMMODATION ADVISORY:
+              </div>
+              <p class="text-stone-700 font-sans text-xs leading-relaxed">
+                Standard student lodging is organized on quad/triple shared basis. <strong>Couples requiring a separate/private room will have additional charges.</strong> (Exact room surplus confirmed upon request).
+              </p>
+            </div>
+
+            <!-- Subheading description -->
+            <p id="hero-description" class="text-base sm:text-lg text-stone-700 leading-relaxed max-w-xl font-normal">
+              4 Days & 3 Nights designed for students from Shoolini University, Solan. High-altitude drive through Atal Tunnel, Sissu snow viewpoints, Solang Valley, day excursion to picturesque Tosh Valley, Kasol market cafes, Manikaran Sahib, and Kasol DJ party & group dinner.
+            </p>
+
+            <!-- Price & Milestone Strip (Solan Mode) -->
+            <div id="strip-solan" class="border border-hairline bg-white p-5 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-4 text-left font-mono">
+              <div class="border-r border-hairline last:border-0 pr-3">
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">Duration</span>
+                <span class="text-2xl sm:text-3xl font-serif text-ink-950 font-normal">4D / 3N</span>
+                <span class="text-[10px] text-stone-500 block">23 Oct — 26 Oct</span>
+              </div>
+              <div class="border-r border-hairline last:border-0 pr-3">
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">Boarding Point</span>
+                <span class="text-base sm:text-lg font-serif text-ink-950 font-normal">Shoolini Univ</span>
+                <span class="text-[10px] text-stone-500 block">07:00 AM Sharp</span>
+              </div>
+              <div class="border-r border-hairline last:border-0 pr-3">
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">Batch Status</span>
+                <span class="text-base sm:text-lg font-serif text-emerald-700 font-bold">Confirmed</span>
+                <span class="text-[10px] text-stone-500 block">Direct Booking</span>
+              </div>
+              <div>
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">Total Package</span>
+                <span class="text-xl sm:text-2xl font-serif text-terracotta-500 font-normal">₹5,799</span>
+                <span class="text-[10px] text-stone-500 block">Transit + Stays + Meals</span>
+              </div>
+            </div>
+
+            <!-- Price & Milestone Strip (Hamirpur Mode) -->
+            <div id="strip-hamirpur" class="hidden border border-hairline bg-white p-5 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-4 text-left font-mono">
+              <div class="border-r border-hairline last:border-0 pr-3">
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">Due Today</span>
+                <span class="text-2xl sm:text-3xl font-serif text-emerald-700 font-normal">₹0</span>
+                <span class="text-[10px] text-stone-500 block">Zero fee now</span>
+              </div>
+              <div class="border-r border-hairline last:border-0 pr-3">
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">On WhatsApp Alert</span>
+                <span class="text-xl sm:text-2xl font-serif text-ink-950 font-normal">₹1,000</span>
+                <span class="text-[10px] text-stone-500 block">Token seat advance</span>
+              </div>
+              <div class="border-r border-hairline last:border-0 pr-3">
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">At Bus Boarding</span>
+                <span class="text-xl sm:text-2xl font-serif text-ink-950 font-normal">₹3,299</span>
+                <span class="text-[10px] text-stone-500 block">Balance on 10 Dec</span>
+              </div>
+              <div>
+                <span class="text-[10px] uppercase text-stone-400 block tracking-wider">Total Package</span>
+                <span class="text-xl sm:text-2xl font-serif text-terracotta-500 font-normal">₹4,299</span>
+                <span class="text-[10px] text-stone-500 block">Transit + Stays + Meals</span>
+              </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-1">
+              <a id="hero-main-cta" href="#booking-section" class="px-8 py-4 bg-ink-950 text-stone-100 font-mono text-xs uppercase tracking-widest text-center hover:bg-terracotta-500 transition-colors duration-200 flex items-center justify-center gap-2">
+                <span id="hero-cta-label">Book Now — Solan to Manali</span>
+                <span id="hero-cta-badge" class="bg-emerald-400 text-ink-950 text-[10px] font-bold px-1.5 py-0.5">CONFIRMED SEATS</span>
+              </a>
+              <a href="#itinerary" class="px-8 py-4 border border-ink-950 text-ink-950 font-mono text-xs uppercase tracking-widest text-center hover:bg-stone-150 transition-colors duration-200">
+                View 4-Day Route
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Visual Frame (5 Cols) -->
+          <div class="lg:col-span-5">
+            <div class="relative border border-hairline bg-white p-3 shadow-sm">
+              <div class="relative overflow-hidden aspect-[3/2] bg-stone-200">
+                <img 
+                  id="hero-banner-image"
+                  src="https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1500&q=80" 
+                  alt="Solan to Manali, Tosh and Kasol Student Expedition" 
+                  width="1536"
+                  height="1024"
+                  class="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700 ease-out"
+                />
+              </div>
+
+              <div class="mt-3 px-1 py-1 flex items-center justify-between text-[11px] font-mono text-stone-500 uppercase tracking-wider">
+                <span id="hero-card-dates">DATES: 23—26 OCT</span>
+                <span id="hero-card-squad">SHOOLINI SQUAD RUN</span>
+                <span id="hero-card-cap" class="text-emerald-700 font-bold">LIMITED SEATS</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 01: DESTINATIONS CIRCUIT (SWITCHES WITH SELECTED TRIP) -->
+    <section id="destinations" class="py-20 border-b border-hairline bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between pb-8 border-b border-hairline gap-4">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">SECTION 01 // DESTINATION CIRCUIT</span>
+            <h2 id="destinations-title" class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+              Solan Circuit: Manali, Tosh & Kasol
+            </h2>
+          </div>
+          <p id="destinations-sub" class="text-xs font-mono text-stone-500 uppercase tracking-wider max-w-sm">
+            High mountain vistas, scenic Tosh valley, Atal Tunnel, Solang Valley, and Kasol cafe culture.
+          </p>
+        </div>
+
+        <!-- SOLAN DESTINATIONS -->
+        <div id="destinations-solan-grid" class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">01 / HIGHLAND VALLEY</span>
+            <h3 class="font-serif text-2xl text-ink-950">Manali & Mall Road</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Vibrant evening exploration of Manali Mall Road, local wooden handicraft bazaars, and cozy cafes.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Day 01 Manali Hotel Stay Included</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">02 / LAHAUL HIGH PASS</span>
+            <h3 class="font-serif text-2xl text-ink-950">Atal Tunnel & Sissu</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Traverse the 9.02 km tunnel under Rohtang Pass into the stunning panoramic river valley of Sissu, Lahaul.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Day 02 High-Altitude Sightseeing</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">03 / ADVENTURE GLEN</span>
+            <h3 class="font-serif text-2xl text-ink-950">Solang Valley</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Surrounded by glacier slopes and alpine pine groves, ideal for photography and mountain valley views.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">En Route to Kasol Transfer</div>
+          </div>
+
+          <div class="border-2 border-ink-950 bg-stone-100 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">04 / SCENIC HIGHLIGHT</span>
+            <h3 class="font-serif text-2xl text-ink-950">Tosh Valley Excursion</h3>
+            <p class="text-stone-700 text-xs font-sans leading-relaxed">
+              Nestled at the far end of Parvati Valley with breathtaking wooden village vistas, waterfalls, and sweeping alpine ridges.
+            </p>
+            <div class="text-[11px] font-mono text-terracotta-600 font-bold pt-2 border-t border-hairline">Day 03 Dedicated Day Excursion</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">05 / CAFE CULTURE</span>
+            <h3 class="font-serif text-2xl text-ink-950">Kasol Market & Local Cafes</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Experience the iconic Israeli and bohemian cafes, German bakeries, and evening shopping across Kasol town.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">2 Nights Kasol Lodging</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">06 / SACRED CONFLUENCE</span>
+            <h3 class="font-serif text-2xl text-ink-950">Manikaran Sahib Gurudwara</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Sacred hot springs, holy dip pools, and peaceful darshan beside the roaring Parvati River before return journey.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Day 04 Morning Darshan</div>
+          </div>
+
+          <!-- Highlight wide card: DJ Party -->
+          <div class="sm:col-span-2 lg:col-span-3 border-2 border-ink-950 bg-ink-950 text-white p-6 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div class="space-y-2 max-w-2xl">
+              <span class="text-[10px] font-mono text-terracotta-400 font-bold uppercase tracking-widest">07 / NIGHT 03 CELEBRATION (25 OCT)</span>
+              <h3 class="font-serif text-3xl text-white">Kasol DJ Party, Group Dinner & Celebration</h3>
+              <p class="text-stone-300 text-xs sm:text-sm font-sans leading-relaxed">
+                Special squad celebration night in Kasol with DJ sound setup, curated tracks, group buffet dinner, and student community vibes.
+              </p>
+            </div>
+            <div class="shrink-0 font-mono text-xs text-right">
+              <span class="bg-terracotta-500 text-white font-bold px-3 py-1.5 text-[11px] inline-block uppercase">Included in ₹5,799</span>
+              <span class="block text-stone-400 mt-1">Night 03 Special</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HAMIRPUR DESTINATIONS (ORIGINAL 7 DESTINATIONS) -->
+        <div id="destinations-hamirpur-grid" class="hidden mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">01 / BASE VALLEY</span>
+            <h3 class="font-serif text-2xl text-ink-950">Manali & Old Manali</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Wooden cafes, cobblestone streets, Manu temple cedar belt, and Mall Road evening shopping.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">2 Nights Hotel Lodging Included</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">02 / LAHAUL VALLEY</span>
+            <h3 class="font-serif text-2xl text-ink-950">Sissu Snow Landscapes</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Snow-clad Himalayan ridges, frozen Sissu waterfall viewpoint, and the open high-altitude river valley.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Elevation: 3,120 Meters</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">03 / ENGINEERING FEAT</span>
+            <h3 class="font-serif text-2xl text-ink-950">Atal Tunnel (Rohtang)</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              9.02 km highway tunnel through the Pir Panjal range connecting Kullu Valley directly to Lahaul.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">World's Longest Above 10,000 Ft</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">04 / ALPINE TRAIL</span>
+            <h3 class="font-serif text-2xl text-ink-950">Jogini Waterfall Trek</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              A gentle 30-minute pine-forest hike starting from Vashisht with sweeping panoramic views of the valley.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Student Hiking Trail</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">05 / HERITAGE SANCTUARY</span>
+            <h3 class="font-serif text-2xl text-ink-950">Hadimba Devi Temple</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Iconic 16th-century wooden pagoda temple concealed under towering deodar canopies in Dhungri.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Ancient Cedar Forest Circuit</div>
+          </div>
+
+          <div class="border border-hairline bg-stone-50 p-5 space-y-3">
+            <span class="text-[10px] font-mono text-terracotta-500 font-bold block">06 / SACRED CONFLUENCE</span>
+            <h3 class="font-serif text-2xl text-ink-950">Manikaran Sahib Gurudwara</h3>
+            <p class="text-stone-600 text-xs font-sans leading-relaxed">
+              Historic pilgrimage site known for natural thermal sulphur springs, sacred dip pools, and communal langar.
+            </p>
+            <div class="text-[11px] font-mono text-stone-500 pt-2 border-t border-hairline">Parvati River Gorge Stop</div>
+          </div>
+
+          <!-- Card 7: Kasol Bonfire Party (Wide) -->
+          <div class="sm:col-span-2 lg:col-span-3 border-2 border-ink-950 bg-stone-100 p-6 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div class="space-y-2 max-w-2xl">
+              <span class="text-[10px] font-mono text-terracotta-500 font-bold uppercase tracking-widest">07 / HIGHLIGHT NIGHT (12 DEC)</span>
+              <h3 class="font-serif text-3xl text-ink-950">Kasol Parvati Riverside Camp & Bonfire Party</h3>
+              <p class="text-stone-700 text-xs sm:text-sm font-sans leading-relaxed">
+                Alpine tents pitched along the Parvati riverbank. Evening pine-wood campfire, curated indie & squad music set, hot buffet dinner, and starry Himalayan skies.
+              </p>
+            </div>
+            <div class="shrink-0 font-mono text-xs text-right">
+              <span class="bg-emerald-600 text-white font-bold px-3 py-1 text-[11px] inline-block uppercase">Included in ₹4,299</span>
+              <span class="block text-stone-500 mt-1">1 Night Camp Lodging</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 02: BOOKING WORKFLOW (ADAPTS TO SOLAN OR HAMIRPUR) -->
+    <section id="flow" class="py-20 border-b border-hairline bg-stone-100/60">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between pb-8 border-b border-hairline gap-4">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">SECTION 02 // CONFIRMATION FLOW</span>
+            <h2 id="flow-title" class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+              Shoolini University Booking Flow
+            </h2>
+          </div>
+          <p id="flow-sub" class="text-xs font-mono text-stone-500 uppercase tracking-wider max-w-sm">
+            Confirmed batch for 23–26 October. Easy registration with verified squad coordination.
+          </p>
+        </div>
+
+        <!-- SOLAN BOOKING FLOW (CONFIRMED BATCH) -->
+        <div id="flow-solan" class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="border border-hairline bg-white p-6 sm:p-8 space-y-4">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-terracotta-500 font-bold">[STEP 01]</span>
+              <span class="bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 text-[11px]">BOOK ONLINE</span>
+            </div>
+            <h3 class="font-serif text-2xl text-ink-950 font-normal">
+              Submit Your Booking
+            </h3>
+            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed font-sans">
+              Provide your details, seat requirement, and room preferences. An instant <strong>Official Booking Pass</strong> is generated immediately.
+            </p>
+            <div class="pt-2 border-t border-hairline text-[11px] font-mono text-stone-500 flex items-center gap-1.5">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>Allotted strictly on first-come, first-served basis.</span>
+            </div>
+          </div>
+
+          <div class="border border-hairline bg-white p-6 sm:p-8 space-y-4">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-terracotta-500 font-bold">[STEP 02]</span>
+              <span class="bg-stone-100 text-ink-950 font-bold px-2 py-0.5 text-[11px] border border-hairline">WA: 9317743024</span>
+            </div>
+            <h3 class="font-serif text-2xl text-ink-950 font-normal">
+              Seat Lock & Coordinator Desk
+            </h3>
+            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed font-sans">
+              Forward your booking pass to our official WhatsApp desk (<strong>9317743024</strong>) to confirm seat numbers, quad sharing, or private couple room requests.
+            </p>
+            <div class="pt-2 border-t border-hairline text-[11px] font-mono text-stone-500 flex items-center gap-1.5">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>Direct personal coordinator assistance.</span>
+            </div>
+          </div>
+
+          <div class="border border-hairline bg-white p-6 sm:p-8 space-y-4">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-terracotta-500 font-bold">[STEP 03]</span>
+              <span class="bg-stone-100 text-ink-950 font-bold px-2 py-0.5 text-[11px] border border-hairline">23 OCT MORNING</span>
+            </div>
+            <h3 class="font-serif text-2xl text-ink-950 font-normal">
+              Board at Shoolini Campus
+            </h3>
+            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed font-sans">
+              Board comfortably at <strong>07:00 AM sharp</strong> from Shoolini University campus gate. Total fare is capped at ₹5,799 flat per student.
+            </p>
+            <div class="pt-2 border-t border-hairline text-[11px] font-mono text-stone-500 flex items-center gap-1.5">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>Direct campus pickup & evening campus return.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HAMIRPUR FLOW (ZERO RISK INTEREST ENGINE) -->
+        <div id="flow-hamirpur" class="hidden mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="border border-hairline bg-white p-6 sm:p-8 space-y-4">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-terracotta-500 font-bold">[STEP 01]</span>
+              <span class="bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 text-[11px]">PAY ₹0 TODAY</span>
+            </div>
+            <h3 class="font-serif text-2xl text-ink-950 font-normal">
+              Add Your Interest
+            </h3>
+            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed font-sans">
+              Enter your name, WhatsApp number, college (NIT Hamirpur / HPTU), and seat count. We issue you a digital <strong>Priority Interest Pass</strong> immediately.
+            </p>
+            <div class="pt-2 border-t border-hairline text-[11px] font-mono text-stone-500 flex items-center gap-1.5">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>Zero UPI or card details required right now.</span>
+            </div>
+          </div>
+
+          <div class="border border-hairline bg-white p-6 sm:p-8 space-y-4">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-terracotta-500 font-bold">[STEP 02]</span>
+              <span class="bg-stone-100 text-ink-950 font-bold px-2 py-0.5 text-[11px] border border-hairline">ON CONFIRMATION</span>
+            </div>
+            <h3 class="font-serif text-2xl text-ink-950 font-normal">
+              WhatsApp Alert & ₹1,000 Advance
+            </h3>
+            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed font-sans">
+              Once minimum student quorum is met, our team messages you on WhatsApp with verified dates. Only then do you pay <strong>₹1,000 via UPI</strong> to lock your seat.
+            </p>
+            <div class="pt-2 border-t border-hairline text-[11px] font-mono text-stone-500 flex items-center gap-1.5">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>Trip doesn't run? You haven't paid a rupee.</span>
+            </div>
+          </div>
+
+          <div class="border border-hairline bg-white p-6 sm:p-8 space-y-4">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-terracotta-500 font-bold">[STEP 03]</span>
+              <span class="bg-stone-100 text-ink-950 font-bold px-2 py-0.5 text-[11px] border border-hairline">ON 10 DEC MORNING</span>
+            </div>
+            <h3 class="font-serif text-2xl text-ink-950 font-normal">
+              Departure Morning (₹3,299 Balance)
+            </h3>
+            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed font-sans">
+              Board the traveler at NIT Hamirpur Main Gate 1 or Hamirpur Bus Stand on 10 Dec morning. Clear the remaining <strong>₹3,299</strong> balance at boarding.
+            </p>
+            <div class="pt-2 border-t border-hairline text-[11px] font-mono text-stone-500 flex items-center gap-1.5">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>Total trip cost capped at ₹4,299 flat per student.</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 03: INTERACTIVE 4-DAY ROUTE LOG (SEPARATE & UNMIXED) -->
+    <section id="itinerary" class="py-20 md:py-28 border-b border-hairline bg-stone-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between pb-8 border-b border-hairline gap-4">
+          <div>
+            <span id="itinerary-tag" class="text-xs font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">
+              SECTION 03 // 23 — 26 OCTOBER ROUTE LOG
+            </span>
+            <h2 id="itinerary-heading" class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+              Solan → Manali & Tosh Itinerary
+            </h2>
+          </div>
+          <p class="text-xs font-mono text-stone-500 uppercase tracking-wider max-w-sm">
+            Select a day to view stops, checkpoints, and activity logs.
+          </p>
+        </div>
+
+        <!-- ======================= ITINERARY CONTAINER: SOLAN TRIP ======================= -->
+        <div id="itinerary-solan-container" class="space-y-6">
+          
+          <!-- Day Tabs for Solan -->
+          <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-2 border border-hairline p-1 bg-stone-150">
+            <button onclick="switchSolanDay(1)" id="solan-tab-1" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition bg-white text-ink-950 font-bold border border-hairline shadow-sm">
+              DAY 1: 23 OCT · SOLAN → MANALI
+            </button>
+            <button onclick="switchSolanDay(2)" id="solan-tab-2" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950">
+              DAY 2: 24 OCT · SISSU → KASOL
+            </button>
+            <button onclick="switchSolanDay(3)" id="solan-tab-3" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950 flex items-center justify-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-terracotta-500"></span>
+              DAY 3: 25 OCT · TOSH & DJ NIGHT
+            </button>
+            <button onclick="switchSolanDay(4)" id="solan-tab-4" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950">
+              DAY 4: 26 OCT · MANIKARAN → SOLAN
+            </button>
+          </div>
+
+          <!-- Solan Day Panes -->
+          <div class="border border-hairline bg-white p-6 sm:p-10 transition-all duration-300">
+            
+            <!-- Day 1 Solan -->
+            <div id="solan-pane-1" class="space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 01 // 23RD OCTOBER</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Solan → Manali & Mall Road
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">ORIGIN: SHOOLINI UNIV</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">NIGHT STAY: MANALI HOTEL</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>• 07:00 AM —</strong> Departure from Shoolini University campus. Board our comfortable traveler and begin the scenic mountain journey towards Kullu Valley.
+                  </p>
+                  <p>
+                    <strong>• Evening —</strong> Arrival in Manali and check-in to our hotel rooms. Freshen up and unpack.
+                  </p>
+                  <p>
+                    <strong>• Late evening —</strong> Explore Manali Mall Road, shop for Himachali handicrafts, and enjoy the brisk mountain evening air.
+                  </p>
+                  <p>
+                    <strong>• Night —</strong> Warm group dinner and overnight stay at the hotel in Manali.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Shoolini University 07:00 AM Departure</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Mall Road Walk</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Group Dinner Included</span>
+                    <span class="bg-stone-100 px-3 border border-hairline">Manali Hotel Stay</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-stone-50 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-stone-400 font-bold border-b border-hairline pb-2">SOLAN DAY 01 TIMELINE CHECK</div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Campus Pickup</span>
+                    <span class="font-bold text-ink-950">07:00 AM Sharp</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Lodging</span>
+                    <span class="font-bold text-ink-950">Manali Hotel (Night 01)</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-600">Dinner</span>
+                    <span class="font-bold text-emerald-700">Group Dinner (Included)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 2 Solan -->
+            <div id="solan-pane-2" class="hidden space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 02 // 24TH OCTOBER</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Atal Tunnel, Sissu, Solang Valley → Kasol
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">CIRCUIT: LAHAUL HIGHLANDS</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DESTINATION: KASOL</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>• Morning —</strong> Breakfast at the hotel and departure for high-altitude sightseeing.
+                  </p>
+                  <p>
+                    <strong>• Excursion —</strong> Visit the iconic <strong>Atal Tunnel</strong>, crossing under the Pir Panjal range to experience <strong>Sissu (Lahaul Valley)</strong> and the frozen waterfalls. Followed by a scenic visit to <strong>Solang Valley</strong>.
+                  </p>
+                  <p>
+                    <strong>• Evening —</strong> Scenic mountain drive south towards Parvati Valley and Kasol.
+                  </p>
+                  <p>
+                    <strong>• Night —</strong> Arrival in Kasol, check-in, warm group dinner, and overnight stay.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Atal Tunnel</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Sissu Waterfall</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Solang Valley</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Kasol Stay & Dinner</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-stone-50 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-stone-400 font-bold border-b border-hairline pb-2">SOLAN DAY 02 TIMELINE CHECK</div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Breakfast</span>
+                    <span class="font-bold text-emerald-700">Included (Hotel)</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Snow & Valley Points</span>
+                    <span class="font-bold text-ink-950">Atal Tunnel, Sissu, Solang</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-600">Night Lodging</span>
+                    <span class="font-bold text-ink-950">Kasol (Night 02) + Dinner</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 3 Solan -->
+            <div id="solan-pane-3" class="hidden space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 03 // 25TH OCTOBER HIGHLIGHT</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Tosh Valley & Kasol Market + DJ Party
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DESTINATION: TOSH VALLEY</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">NIGHT: DJ PARTY IN KASOL</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>• Morning —</strong> Warm breakfast at the hotel in Kasol.
+                  </p>
+                  <p>
+                    <strong>• Day Excursion —</strong> Head out for an unforgettable day trip to <strong>Tosh Valley</strong>. Explore the picturesque wooden village perched on the mountain ridge, soak in stunning panoramic Himalayan peaks, and enjoy nature trails.
+                  </p>
+                  <p>
+                    <strong>• Evening —</strong> Return to Kasol. Free time to explore vibrant <strong>Kasol Market</strong>, quaint local cafes, and bohemian bakeries.
+                  </p>
+                  <p>
+                    <strong>• Night —</strong> High-energy <strong>DJ Party</strong>, special group dinner, and overnight stay in Kasol.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-terracotta-500/10 text-terracotta-600 px-3 py-1 border border-terracotta-500/30 font-bold">Tosh Valley Excursion</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Kasol Cafes & Market</span>
+                    <span class="bg-terracotta-500/10 text-terracotta-600 px-3 py-1 border border-terracotta-500/30 font-bold">DJ Party Night</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Group Dinner Included</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-ink-950 text-stone-200 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-terracotta-400 font-bold border-b border-ink-800 pb-2">NIGHT 03 CELEBRATION PROTOCOL</div>
+                  <div class="flex justify-between py-1 border-b border-ink-800">
+                    <span class="text-stone-400">Day Trip</span>
+                    <span class="font-bold text-white">Tosh Valley (Included)</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-ink-800">
+                    <span class="text-stone-400">DJ Party</span>
+                    <span class="font-bold text-terracotta-400">100% Included</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-400">Night Lodging</span>
+                    <span class="font-bold text-emerald-400">Kasol Stay (Night 03)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 4 Solan -->
+            <div id="solan-pane-4" class="hidden space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 04 // 26TH OCTOBER</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Manikaran Sahib → Solan
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DARSHAN: MANIKARAN SAHIB</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DROP: SHOOLINI UNIVERSITY</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>• Morning —</strong> Breakfast and hotel check-out in Kasol.
+                  </p>
+                  <p>
+                    <strong>• Holy Visit —</strong> Visit <strong>Manikaran Sahib</strong> for sacred Darshan, hot sulphur spring views, and Gurudwara langar along the rushing river.
+                  </p>
+                  <p>
+                    <strong>• Afternoon —</strong> Start the smooth and scenic return journey towards Solan.
+                  </p>
+                  <p>
+                    <strong>• Late Evening —</strong> Safe arrival back at <strong>Shoolini University campus</strong>.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Breakfast Included</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Manikaran Sahib Darshan</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Direct Return Transit</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Shoolini Campus Drop</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-stone-50 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-stone-400 font-bold border-b border-hairline pb-2">SOLAN RETURN LOGISTICS</div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Darshan</span>
+                    <span class="font-bold text-ink-950">Manikaran Sahib Hot Springs</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Departure Solan-bound</span>
+                    <span class="font-bold text-ink-950">Afternoon</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-600">Arrival Shoolini Campus</span>
+                    <span class="font-bold text-emerald-700">Late Evening</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ======================= ITINERARY CONTAINER: HAMIRPUR TRIP ======================= -->
+        <div id="itinerary-hamirpur-container" class="hidden space-y-6">
+          
+          <!-- Day Selector Tabs for Hamirpur -->
+          <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-2 border border-hairline p-1 bg-stone-150">
+            <button onclick="switchHamirpurDay(1)" id="hamirpur-tab-1" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition bg-white text-ink-950 font-bold border border-hairline shadow-sm">
+              10 DEC: HAMIRPUR → MANALI
+            </button>
+            <button onclick="switchHamirpurDay(2)" id="hamirpur-tab-2" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950">
+              11 DEC: ATAL TUNNEL & SISSU
+            </button>
+            <button onclick="switchHamirpurDay(3)" id="hamirpur-tab-3" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950 flex items-center justify-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-terracotta-500"></span>
+              12 DEC: MANIKARAN & KASOL
+            </button>
+            <button onclick="switchHamirpurDay(4)" id="hamirpur-tab-4" class="py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950">
+              13 DEC: KASOL → HAMIRPUR
+            </button>
+          </div>
+
+          <!-- Hamirpur Day Panes -->
+          <div class="border border-hairline bg-white p-6 sm:p-10 transition-all duration-300">
+            
+            <!-- Day 1 Hamirpur -->
+            <div id="hamirpur-pane-1" class="space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 01 // 10 DECEMBER</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Hamirpur to Manali, Hadimba Temple & Old Manali Walk
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DISTANCE: 215 KM</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">TRANSIT: PUSHBACK TRAVELER</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>05:45 AM:</strong> Early morning boarding at NIT Hamirpur Main Gate 1, followed by Hamirpur New Bus Stand and Anu Chowk.
+                  </p>
+                  <p>
+                    Scenic drive via Mandi along the turquoise Pandoh Dam reservoir and through the Aut Tunnel. Tea and paratha breakfast halt en route.
+                  </p>
+                  <p>
+                    Reach Manali by afternoon and check into our hotel. Visit the ancient <strong>Hadimba Devi Temple</strong> surrounded by deodar woods. Spend the evening wandering the cozy cafes of <strong>Old Manali</strong> and strolling through Mall Road. Hot buffet dinner at hotel.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">NIT Hamirpur Departure</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Hadimba Forest Sanctuary</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Old Manali Cafes</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Buffet Dinner Included</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-stone-50 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-stone-400 font-bold border-b border-hairline pb-2">DAY 01 LOGISTICS CHECK</div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Boarding Time</span>
+                    <span class="font-bold text-ink-950">05:45 AM Sharp</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Lodging</span>
+                    <span class="font-bold text-ink-950">Manali Hotel (Night 01)</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-600">Evening Meal</span>
+                    <span class="font-bold text-emerald-700">Hot Buffet Dinner (Included)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 2 Hamirpur -->
+            <div id="hamirpur-pane-2" class="hidden space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 02 // 11 DECEMBER</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Atal Tunnel Crossing, Sissu Snowfields & Jogini Waterfall
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">ELEVATION: 3,120M</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">CIRCUIT: LAHAUL HIGHLANDS</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>08:00 AM:</strong> Mountain breakfast at the hotel.
+                  </p>
+                  <p>
+                    Drive up through Solang towards the 9.02 km engineering marvel — <strong>Atal Tunnel</strong>. Cross into Lahaul Valley through the North Portal to witness the sudden transformation into towering snow-clad peaks.
+                  </p>
+                  <p>
+                    Spend time at <strong>Sissu</strong> exploring the frozen riverbanks and waterfall viewpoint. Later in the afternoon, return to the Manali side for the scenic pine trek to <strong>Jogini Waterfall</strong>. Return to the hotel for a warm buffet dinner.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Atal Tunnel Transit</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Sissu Snow Vistas</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Jogini Waterfall Hike</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Night 02 Manali Hotel</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-stone-50 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-stone-400 font-bold border-b border-hairline pb-2">DAY 02 LOGISTICS CHECK</div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Breakfast</span>
+                    <span class="font-bold text-emerald-700">Included (Hotel)</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Snow Point</span>
+                    <span class="font-bold text-ink-950">Sissu, Lahaul (Weather Permitting)</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-600">Dinner</span>
+                    <span class="font-bold text-emerald-700">Included (Hotel)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 3 Hamirpur -->
+            <div id="hamirpur-pane-3" class="hidden space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 03 // 12 DECEMBER HIGHLIGHT</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Transfer to Parvati Valley, Manikaran Sahib & Kasol Bonfire Party
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DESTINATION: KASOL</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">STAY: RIVERSIDE CAMPS</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>08:30 AM:</strong> Hotel breakfast and check-out from Manali. We drive south towards the dramatic gorge road of Parvati Valley.
+                  </p>
+                  <p>
+                    Visit the sacred <strong>Manikaran Sahib Gurudwara</strong>, known for natural hot sulphur spring baths and hot langar beside the roaring Parvati River.
+                  </p>
+                  <p>
+                    <strong>Kasol Riverside Bonfire Session (Evening):</strong> Check into our private alpine campsite on the Parvati riverbank. Pine-wood bonfire, curated squad music set, hot tea and evening snacks, followed by a warm camp buffet dinner under open mountain stars.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Manikaran Hot Springs</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Parvati Riverbank Tents</span>
+                    <span class="bg-terracotta-500/10 text-terracotta-600 px-3 py-1 border border-terracotta-500/30 font-bold">Riverside Bonfire & Music</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Camp Dinner Included</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-ink-950 text-stone-200 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-terracotta-400 font-bold border-b border-ink-800 pb-2">PARVATI CAMP PROTOCOL</div>
+                  <div class="flex justify-between py-1 border-b border-ink-800">
+                    <span class="text-stone-400">Lodging</span>
+                    <span class="font-bold text-white">Weatherproof Alpine Tents</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-ink-800">
+                    <span class="text-stone-400">Party / Bonfire</span>
+                    <span class="font-bold text-terracotta-400">100% Included</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-400">Security</span>
+                    <span class="font-bold text-emerald-400">Student Verified Enclosure</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 4 Hamirpur -->
+            <div id="hamirpur-pane-4" class="hidden space-y-8">
+              <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-hairline">
+                <div>
+                  <span class="text-xs font-mono uppercase text-terracotta-500 tracking-widest block font-bold">DAY 04 // 13 DECEMBER</span>
+                  <h3 class="font-serif text-3xl sm:text-4xl text-ink-950 font-normal mt-1">
+                    Kasol Café Walk & Evening Return to Hamirpur
+                  </h3>
+                </div>
+                <div class="flex items-center gap-4 text-xs font-mono text-stone-600">
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DISTANCE: 198 KM</span>
+                  <span class="border border-hairline px-3 py-1 bg-stone-50">DROP: NIT GATE 1 / BUS STAND</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-7 space-y-4 text-sm sm:text-base text-stone-700 leading-relaxed font-normal">
+                  <p>
+                    <strong>08:30 AM:</strong> Riverside camp breakfast with masala chai beside the sound of the flowing Parvati River.
+                  </p>
+                  <p>
+                    Free morning to explore Kasol's flea markets, German bakeries, and quaint cafes for Israeli snacks.
+                  </p>
+                  <p>
+                    <strong>01:30 PM:</strong> Board our vehicle for the smooth return journey through Bhuntar, Mandi, and Ner Chowk. Safe drop-offs at Hamirpur New Bus Stand and NIT Hamirpur Main Gate 1 by ~08:30 PM, well within college hostel timings.
+                  </p>
+                  <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-stone-700">
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Camp Breakfast Included</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Kasol Bakery Trail</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Direct Return Transit</span>
+                    <span class="bg-stone-100 px-3 py-1 border border-hairline">Hostel In-Time Drop</span>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 border border-hairline p-5 bg-stone-50 space-y-4 font-mono text-xs">
+                  <div class="text-[10px] uppercase tracking-widest text-stone-400 font-bold border-b border-hairline pb-2">RETURN TIMINGS</div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Kasol Departure</span>
+                    <span class="font-bold text-ink-950">01:30 PM Sharp</span>
+                  </div>
+                  <div class="flex justify-between py-1 border-b border-hairline">
+                    <span class="text-stone-600">Expected Arrival (HMR)</span>
+                    <span class="font-bold text-ink-950">~08:30 PM</span>
+                  </div>
+                  <div class="flex justify-between py-1">
+                    <span class="text-stone-600">Hostel Rules</span>
+                    <span class="font-bold text-emerald-700">In-Time Compliant</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 04: SPECIAL HIGHLIGHTS (DYNAMIC TO ACTIVE TRIP) -->
+    <section id="highlight-session" class="py-20 md:py-28 bg-ink-950 text-stone-100 border-b border-ink-850 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <!-- Solan Highlight: Tosh Valley & DJ Night -->
+        <div id="highlight-solan" class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1 border border-terracotta-500/40 bg-terracotta-500/10 text-terracotta-400 text-xs font-mono uppercase tracking-widest">
+              <span>NIGHT 03 // 25 OCTOBER SHOOLINI SPECIAL</span>
+            </div>
+
+            <h2 class="font-serif text-4xl sm:text-6xl text-white font-normal leading-[1.05]">
+              Tosh Valley & Kasol DJ Night. <br>
+              <span class="italic text-terracotta-400">Himalayan ridges & squad music.</span>
+            </h2>
+
+            <p class="text-stone-300 text-sm sm:text-base leading-relaxed font-normal">
+              Day 03 is an extraordinary mountain day trip to Tosh Valley — walking along traditional Himachali timber homes overlooking glacier streams. Evening caps off in Kasol with our exclusive student DJ party and hot buffet dinner.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 font-mono text-xs">
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">01 / TOSH VALLEY DAY EXCURSION</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Ascend to one of the most scenic vantage points in Parvati Valley with breathtaking mountain views.
+                </p>
+              </div>
+
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">02 / DJ SOUND CELEBRATION</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Electric music setup, high-energy squad playlist, and a safe, verified student celebration.
+                </p>
+              </div>
+
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">03 / SPECIAL GROUP DINNER</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Rich hot buffet featuring north Indian delicacies, fresh breads, and evening tea.
+                </p>
+              </div>
+
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">04 / KASOL CAFE HOPPING</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Explore local cafes, bakeries, and aesthetic handicrafts along the Kasol bazaar.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 border border-ink-800 bg-ink-900 flex flex-col sm:flex-row sm:items-center justify-between text-xs font-mono text-stone-400 gap-2">
+              <span>All Tosh transfers, DJ party setup & group meals included in ₹5,799 package.</span>
+              <span class="text-emerald-400 font-bold uppercase">100% Included</span>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5">
+            <div class="border border-ink-800 bg-ink-900 p-3">
+              <div class="aspect-[4/5] overflow-hidden relative bg-ink-850">
+                <img 
+                  src="https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Tosh Valley and Parvati Mountain Ridges" 
+                  class="w-full h-full object-cover filter contrast-[1.1] brightness-90 hover:scale-105 transition-transform duration-700 ease-out"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-ink-950 via-transparent to-transparent opacity-80"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-xs font-mono text-stone-300">
+                  <div class="border-t border-ink-800 pt-2 flex justify-between">
+                    <span class="text-white font-serif text-lg italic">Tosh Excursion</span>
+                    <span class="text-terracotta-400 uppercase">25 OCT · Parvati Valley</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 text-center text-[10px] font-mono uppercase tracking-widest text-stone-500">
+                TOSH VALLEY & KASOL CIRCUIT
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hamirpur Highlight: Kasol Riverside Bonfire -->
+        <div id="highlight-hamirpur" class="hidden grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1 border border-terracotta-500/40 bg-terracotta-500/10 text-terracotta-400 text-xs font-mono uppercase tracking-widest">
+              <span>NIGHT 03 // 12 DECEMBER PARVATI SPECIAL</span>
+            </div>
+
+            <h2 class="font-serif text-4xl sm:text-6xl text-white font-normal leading-[1.05]">
+              The Kasol Riverside Session. <br>
+              <span class="italic text-terracotta-400">Fire, acoustics & Parvati stars.</span>
+            </h2>
+
+            <p class="text-stone-300 text-sm sm:text-base leading-relaxed font-normal">
+              Night 03 is dedicated to our private riverside campsite on the Parvati Riverbank. Pine-wood bonfire, hand-picked playlist, warm mountain food, and student community vibes.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 font-mono text-xs">
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">01 / DRY PINE BONFIRE</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  A massive, slow-burning pine bonfire to keep you warm against the crisp winter Parvati night air.
+                </p>
+              </div>
+
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">02 / CURATED SQUAD MUSIC</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Tuned acoustic system featuring indie favourites, Himalayan sounds, and student-requested tracks.
+                </p>
+              </div>
+
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">03 / HOT CAMP BUFFET</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Freshly cooked dal makhani, paneer curry, hot rotis, and evening chai snacks straight from the camp kitchen.
+                </p>
+              </div>
+
+              <div class="p-4 border border-ink-800 bg-ink-900/60">
+                <span class="text-terracotta-400 font-bold block mb-1">04 / ZERO NUISANCE DECORUM</span>
+                <p class="text-stone-400 leading-relaxed font-sans text-xs">
+                  Strictly verified student-only enclosure. Zero outsiders, dedicated female coordinator, and a safe atmosphere.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 border border-ink-800 bg-ink-900 flex flex-col sm:flex-row sm:items-center justify-between text-xs font-mono text-stone-400 gap-2">
+              <span>Bonfire setup, music access & camp accommodation included in ₹4,299 package.</span>
+              <span class="text-emerald-400 font-bold uppercase">Zero Surcharge</span>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5">
+            <div class="border border-ink-800 bg-ink-900 p-3">
+              <div class="aspect-[4/5] overflow-hidden relative bg-ink-850">
+                <img 
+                  src="https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Kasol Riverside Bonfire Session" 
+                  class="w-full h-full object-cover filter contrast-[1.1] brightness-90 hover:scale-105 transition-transform duration-700 ease-out"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-ink-950 via-transparent to-transparent opacity-80"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-xs font-mono text-stone-300">
+                  <div class="border-t border-ink-800 pt-2 flex justify-between">
+                    <span class="text-white font-serif text-lg italic">Night 03 Campfire</span>
+                    <span class="text-terracotta-400 uppercase">12 DEC · Kasol</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 text-center text-[10px] font-mono uppercase tracking-widest text-stone-500">
+                PARVATI RIVERBANK CAMPSITE
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 05: COST TRANSPARENCY LEDGER -->
+    <section id="ledger" class="py-20 md:py-28 border-b border-hairline bg-stone-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between pb-8 border-b border-hairline gap-4">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">SECTION 05 // FINANCIAL CLARITY</span>
+            <h2 id="ledger-title" class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+              Solan Package Breakdown (₹5,799)
+            </h2>
+          </div>
+          <p id="ledger-sub" class="text-xs font-mono text-stone-500 uppercase tracking-wider max-w-sm">
+            Exact all-inclusive breakdown with zero hidden charges.
+          </p>
+        </div>
+
+        <!-- SOLAN LEDGER (₹5,799) -->
+        <div id="ledger-solan" class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <div class="border border-hairline bg-white p-6 sm:p-8">
+            <div class="flex items-center justify-between pb-4 border-b border-hairline">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 bg-emerald-600 inline-block"></span>
+                <h3 class="font-mono text-sm font-bold uppercase tracking-wider text-ink-950">Covered in ₹5,799 Net Fare</h3>
+              </div>
+              <span class="text-[10px] font-mono text-emerald-700 bg-emerald-50 px-2.5 py-1 border border-emerald-200 uppercase font-semibold">ALL-INCLUDED</span>
+            </div>
+
+            <ul class="mt-6 space-y-4 text-xs font-mono text-stone-700">
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">All Transit Transports:</strong> Shoolini University, Solan ⇄ Manali ⇄ Atal Tunnel ⇄ Sissu ⇄ Solang ⇄ Tosh ⇄ Kasol ⇄ Manikaran roundtrip with fuel, state permits, and tolls.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">3 Nights Stays:</strong> Hotel stay in Manali + quality lodging in Kasol on quad/triple sharing.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">Meals:</strong> Daily mountain breakfasts + delicious group dinners served at hotel and accommodation.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">Tosh Valley Excursion:</strong> Dedicated mountain excursion to Tosh village included.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">Kasol DJ Party:</strong> Evening DJ setup and celebration night.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">Complete Sightseeing:</strong> Atal Tunnel, Sissu (Lahaul), Solang, Kasol Bazaar, Manikaran Sahib.
+                </div>
+              </li>
+            </ul>
+
+            <!-- Couples Room Note in Ledger -->
+            <div class="mt-6 p-3.5 bg-amber-50 border border-amber-200 text-amber-900 font-mono text-[11px] leading-relaxed">
+              <strong>ROOM UPGRADE NOTE:</strong> Standard package covers quad/triple sharing rooms. <strong>Couples requiring a separate/private room will have additional charges</strong> (communicated upon request).
+            </div>
+          </div>
+
+          <div class="border border-hairline bg-white p-6 sm:p-8">
+            <div class="flex items-center justify-between pb-4 border-b border-hairline">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 bg-stone-400 inline-block"></span>
+                <h3 class="font-mono text-sm font-bold uppercase tracking-wider text-ink-950">Self-Covered / Optional</h3>
+              </div>
+              <span class="text-[10px] font-mono text-stone-500 bg-stone-100 px-2.5 py-1 border border-hairline uppercase font-semibold">OUT-OF-POCKET</span>
+            </div>
+
+            <ul class="mt-6 space-y-4 text-xs font-mono text-stone-700">
+              <li class="flex items-start gap-3">
+                <span class="text-stone-400 font-bold">—</span>
+                <div>
+                  <strong class="text-ink-950">Daily Lunches & Cafes:</strong> Lunches during transit/sightseeing and personal visits to Kasol cafes.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-stone-400 font-bold">—</span>
+                <div>
+                  <strong class="text-ink-950">Personal Adventure Rides:</strong> Paragliding/ATV at Solang or snow gear rentals if availed personally.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-stone-400 font-bold">—</span>
+                <div>
+                  <strong class="text-ink-950">Private Room Surplus:</strong> Couples requiring a private room will have additional charges.
+                </div>
+              </li>
+            </ul>
+
+            <div class="mt-8 pt-4 border-t border-hairline flex items-center justify-between text-[11px] font-mono text-stone-500">
+              <span>Suggested pocket buffer: ₹1,000 – ₹1,500</span>
+              <span class="text-terracotta-500 font-bold">ZERO SURPRISES</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HAMIRPUR LEDGER (₹4,299) -->
+        <div id="ledger-hamirpur" class="hidden mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <div class="border border-hairline bg-white p-6 sm:p-8">
+            <div class="flex items-center justify-between pb-4 border-b border-hairline">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 bg-emerald-600 inline-block"></span>
+                <h3 class="font-mono text-sm font-bold uppercase tracking-wider text-ink-950">Covered in ₹4,299 Net Fare</h3>
+              </div>
+              <span class="text-[10px] font-mono text-emerald-700 bg-emerald-50 px-2.5 py-1 border border-emerald-200 uppercase font-semibold">ALL-INCLUDED</span>
+            </div>
+
+            <ul class="mt-6 space-y-4 text-xs font-mono text-stone-700">
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">All Transit Transports:</strong> Hamirpur ⇄ Manali ⇄ Atal Tunnel ⇄ Sissu ⇄ Manikaran ⇄ Kasol roundtrip in pushback traveler with fuel, permits, and tolls.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">3 Nights Stays:</strong> 2 Nights verified hotel in Old Manali + 1 Night riverside alpine camp tents in Kasol with bedding.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">6 Mountain Meals:</strong> 3 Buffet breakfasts + 3 Buffet dinners served at hotel and campsite.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">Kasol Bonfire Session:</strong> Wood campfire, music set, and community night on the Parvati riverbank.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">Full Sightseeing Circuit:</strong> Sissu, Atal Tunnel, Jogini Waterfall, Hadimba Temple, Manikaran Sahib, Kasol.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <div>
+                  <strong class="text-ink-950">2 On-Ground Leaders:</strong> Dedicated assistance, female coordinator on trip, first aid support.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="border border-hairline bg-white p-6 sm:p-8">
+            <div class="flex items-center justify-between pb-4 border-b border-hairline">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 bg-stone-400 inline-block"></span>
+                <h3 class="font-mono text-sm font-bold uppercase tracking-wider text-ink-950">Self-Covered / Optional</h3>
+              </div>
+              <span class="text-[10px] font-mono text-stone-500 bg-stone-100 px-2.5 py-1 border border-hairline uppercase font-semibold">OUT-OF-POCKET</span>
+            </div>
+
+            <ul class="mt-6 space-y-4 text-xs font-mono text-stone-700">
+              <li class="flex items-start gap-3">
+                <span class="text-stone-400 font-bold">—</span>
+                <div>
+                  <strong class="text-ink-950">Daily Lunches & Cafes:</strong> Students prefer exploring diverse cafes in Old Manali and Kasol bakeries (approx. ₹200–₹350/meal).
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-stone-400 font-bold">—</span>
+                <div>
+                  <strong class="text-ink-950">Personal Adventure Rides:</strong> Personal fees for snow suits, boots at Sissu, or optional adventure rides.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-stone-400 font-bold">—</span>
+                <div>
+                  <strong class="text-ink-950">Personal Shopping:</strong> Sweaters, shawls, and personal souvenirs.
+                </div>
+              </li>
+            </ul>
+
+            <div class="mt-8 pt-4 border-t border-hairline flex items-center justify-between text-[11px] font-mono text-stone-500">
+              <span>Suggested pocket buffer: ₹1,000 – ₹1,500</span>
+              <span class="text-terracotta-500 font-bold">ZERO SURPRISES</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 06: UNIFIED DYNAMIC BOOKING & INTEREST ENGINE -->
+    <section id="booking-section" class="py-20 md:py-28 border-b border-hairline bg-stone-100/70 scroll-mt-20">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <div id="form-pill-top" class="inline-flex items-center gap-2 px-3 py-1 border border-terracotta-500/40 bg-terracotta-500/10 text-terracotta-600 text-xs font-mono uppercase tracking-widest font-semibold mb-3">
+            <span id="form-pill-text">CONFIRMED SEATS BOOKING</span>
+            <span>·</span>
+            <span id="form-pill-fare">₹5,799 ALL-IN</span>
+          </div>
+          <h2 id="form-main-title" class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+            Book Your Seat — Solan to Manali
+          </h2>
+          <p id="form-sub-title" class="mt-3 text-sm sm:text-base text-ink-950 font-semibold">
+            Shoolini University Batch (23rd Oct – 26th Oct). Direct booking confirmation.
+          </p>
+          <p class="mt-3 inline-flex items-center gap-2 px-3 py-1.5 bg-terracotta-500 text-white text-xs font-mono uppercase tracking-widest font-bold">
+            <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+            Hurry up! Limited batch seats — confirmed bookings
+          </p>
+          <p id="form-sub-note" class="mt-3 text-xs font-mono text-stone-600 uppercase tracking-wider">
+            Boarding from Shoolini University campus. WhatsApp desk: 9317743024.
+          </p>
+        </div>
+
+        <!-- The Registration & Booking Form Box -->
+        <div id="registration-card" class="border border-hairline bg-white shadow-md relative overflow-hidden">
+          
+          <!-- Card Header Bar -->
+          <div class="bg-ink-950 text-stone-200 px-6 sm:px-8 py-4 flex flex-wrap items-center justify-between gap-2 border-b border-ink-800 text-xs font-mono">
+            <div class="flex items-center gap-2">
+              <span id="form-header-badge" class="text-terracotta-400 font-bold">SOLAN // 23-26 OCT BATCH</span>
+              <span class="text-stone-500">·</span>
+              <span id="form-header-route">SHOOLINI → MANALI, TOSH & KASOL</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span id="form-header-status" class="text-emerald-300 font-bold">CONFIRMED EXPEDITION</span>
+            </div>
+          </div>
+
+          <!-- Active Form -->
+          <form id="interest-form" name="student-expedition-booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="handleFormSubmission(event)" class="p-6 sm:p-10 space-y-6">
+            <input type="hidden" name="form-name" value="student-expedition-booking" />
+            <input type="hidden" name="selected_trip" id="selected-trip-input" value="SOLAN → MANALI (23-26 Oct)" />
+            <input type="hidden" name="seats" id="seats-input" value="1" />
+            <p style="display:none">
+              <label>Don't fill this out: <input name="bot-field" /></label>
+            </p>
+            
+            <div id="validation-msg" class="hidden p-3 bg-red-50 border border-red-300 text-red-800 text-xs font-mono"></div>
+
+            <!-- Student Booker Details -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              <!-- Full Name -->
+              <div class="space-y-1.5">
+                <label for="student-name" class="text-[11px] font-mono uppercase tracking-widest text-stone-600 block font-semibold">
+                  Full Name <span class="text-terracotta-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="student-name" 
+                  name="full-name" 
+                  required 
+                  placeholder="e.g. Aryan Thakur" 
+                  class="w-full bg-stone-50 border border-hairline py-3 px-3.5 text-xs font-mono text-ink-950 placeholder-stone-400 focus:outline-none focus:border-terracotta-500 focus:bg-white transition"
+                />
+              </div>
+
+              <!-- WhatsApp Number -->
+              <div class="space-y-1.5">
+                <label for="student-phone" class="text-[11px] font-mono uppercase tracking-widest text-stone-600 block font-semibold flex items-center justify-between">
+                  <span>WhatsApp Number <span class="text-terracotta-500">*</span></span>
+                  <span class="text-[10px] text-emerald-700 font-normal">Desk: 9317743024</span>
+                </label>
+                <div class="flex">
+                  <span class="inline-flex items-center px-3 border border-r-0 border-hairline bg-stone-100 text-xs font-mono text-stone-600">
+                    +91
+                  </span>
+                  <input 
+                    type="tel" 
+                    id="student-phone" 
+                    name="whatsapp-number" 
+                    required 
+                    pattern="[0-9]{10}"
+                    maxlength="10"
+                    placeholder="98XXXXXXXX" 
+                    class="w-full bg-stone-50 border border-hairline py-3 px-3.5 text-xs font-mono text-ink-950 placeholder-stone-400 focus:outline-none focus:border-terracotta-500 focus:bg-white transition"
+                  />
+                </div>
+                <span class="text-[10px] font-mono text-stone-500 block">We will contact you directly on WhatsApp for squad roll-call.</span>
+              </div>
+
+            </div>
+
+            <!-- College & Pickup -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              <!-- College Dropdown (All Solan Institutes pre-loaded with Shoolini on top) -->
+              <div class="space-y-1.5">
+                <label for="college-name" class="text-[11px] font-mono uppercase tracking-widest text-stone-600 block font-semibold">
+                  College / Institution <span class="text-terracotta-500">*</span>
+                </label>
+                <select id="college-name" name="college" required class="w-full bg-stone-50 border border-hairline py-3 px-3.5 text-xs font-mono text-ink-950 focus:outline-none focus:border-terracotta-500 focus:bg-white transition">
+                  <option value="Shoolini University, Solan" selected>★ Shoolini University, Solan (Main Campus)</option>
+                  <option value="Jaypee University of Information Technology (JUIT), Waknaghat">Jaypee University (JUIT Waknaghat, Solan)</option>
+                  <option value="Dr. YS Parmar University of Horticulture & Forestry, Nauni">Dr. YS Parmar UHF (Nauni, Solan)</option>
+                  <option value="Govt Post Graduate College Solan">Govt Post Graduate College, Solan</option>
+                  <option value="LR Group of Institutes, Solan">LR Group of Institutes, Solan</option>
+                  <option value="Green Hills Engineering College, Kumarhatti">Green Hills Engineering College, Kumarhatti, Solan</option>
+                  <option value="Govt Polytechnic College, Kandaghat">Govt Polytechnic College, Kandaghat, Solan</option>
+                  <option value="Manav Bharti University, Solan">Manav Bharti University, Solan</option>
+                  <option value="Bhojia Dental College & Institute, Baddi/Solan">Bhojia Group of Institutes, Solan</option>
+                  <option value="Govt Degree College, Kandaghat/Dharampur">Govt Degree College, Kandaghat / Dharampur</option>
+                  <option value="Other Himachal Institution">Other Himachal Student Cohort</option>
+                </select>
+              </div>
+
+              <!-- Pickup Point Dropdown (Pre-loaded with Shoolini University Campus Gate) -->
+              <div class="space-y-1.5">
+                <label for="pickup-select" class="text-[11px] font-mono uppercase tracking-widest text-stone-600 block font-semibold">
+                  Preferred Boarding Point <span class="text-terracotta-500">*</span>
+                </label>
+                <select id="pickup-select" name="pickup-point" class="w-full bg-stone-50 border border-hairline py-3 px-3.5 text-xs font-mono text-ink-950 focus:outline-none focus:border-terracotta-500 focus:bg-white transition">
+                  <option value="Shoolini University Campus Main Gate (07:00 AM)" selected>★ Shoolini University Campus Main Gate (07:00 AM)</option>
+                  <option value="Shoolini Pine / Sultanpur Chowk (07:10 AM)">Shoolini Pine / Sultanpur Chowk (07:10 AM)</option>
+                  <option value="Solan Bypass / Mall Road Old Bus Stand (07:25 AM)">Solan Bypass / Mall Road (07:25 AM)</option>
+                  <option value="Chambaghat Chowk, Solan (07:35 AM)">Chambaghat Chowk, Solan (07:35 AM)</option>
+                  <option value="Kandaghat Junction (07:50 AM)">Kandaghat Junction (07:50 AM)</option>
+                  <option value="Kumarhatti / Dharampur Chowk (07:15 AM)">Kumarhatti / Dharampur Chowk (07:15 AM)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Room Preference Note / Selection -->
+            <div class="p-4 bg-stone-50 border border-hairline space-y-2">
+              <span class="text-[11px] font-mono uppercase tracking-widest text-stone-700 block font-bold">
+                Room Sharing & Accommodation Preference:
+              </span>
+              <p class="text-xs text-stone-600 font-sans leading-relaxed">
+                Standard package includes quad/triple student sharing rooms. <br>
+                <span class="text-amber-800 font-semibold font-mono">⚠️ Couples requiring a separate/private room will have additional charges.</span> (You can note your preference when confirming with our WhatsApp desk).
+              </p>
+            </div>
+
+            <!-- Number of Seats Selector -->
+            <div class="border border-hairline p-5 bg-stone-50 space-y-3">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <div>
+                  <span class="text-xs font-mono uppercase tracking-widest text-ink-950 block font-bold">
+                    Number of Seats You Wish to Reserve
+                  </span>
+                  <span class="text-[11px] font-mono text-stone-500">
+                    Traveling with friends? Book up to 6 seats in one pass.
+                  </span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <button type="button" onclick="adjustSeatCount(-1)" class="w-10 h-10 border border-hairline bg-white font-mono text-lg font-bold text-ink-950 hover:bg-stone-150 transition active:scale-95 flex items-center justify-center">
+                    −
+                  </button>
+                  <span id="seat-count-num" class="w-8 text-center font-mono text-2xl font-bold text-ink-950">1</span>
+                  <button type="button" onclick="adjustSeatCount(1)" class="w-10 h-10 border border-hairline bg-white font-mono text-lg font-bold text-ink-950 hover:bg-stone-150 transition active:scale-95 flex items-center justify-center">
+                    +
+                  </button>
+                </div>
+              </div>
+
+              <!-- Real Time Payment Ledger Strip for Form -->
+              <div id="form-ledger-strip-solan" class="mt-4 pt-4 border-t border-hairline grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs font-mono">
+                <div class="p-2.5 bg-emerald-50 border border-emerald-200">
+                  <span class="text-[10px] text-emerald-800 uppercase block font-semibold">1. Status</span>
+                  <span class="text-base font-bold text-emerald-900 block">Confirmed Batch</span>
+                  <span class="text-[9px] text-emerald-700">23 Oct — 26 Oct</span>
+                </div>
+                <div class="p-2.5 bg-white border border-hairline">
+                  <span class="text-[10px] text-stone-500 uppercase block font-semibold">2. Rate Per Student</span>
+                  <span class="text-base font-bold text-ink-950 block">₹5,799</span>
+                  <span class="text-[9px] text-stone-500">All-in package</span>
+                </div>
+                <div class="p-2.5 bg-white border border-hairline col-span-2 sm:col-span-1">
+                  <span class="text-[10px] text-stone-500 uppercase block font-semibold">Total Fare</span>
+                  <span id="fare-total-solan" class="text-lg font-bold text-terracotta-500 block">₹5,799</span>
+                  <span class="text-[9px] text-stone-500">Calculated for squad</span>
+                </div>
+              </div>
+
+              <!-- Hamirpur Ledger Strip (Original) -->
+              <div id="form-ledger-strip-hamirpur" class="hidden mt-4 pt-4 border-t border-hairline grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-mono">
+                <div class="p-2.5 bg-emerald-50 border border-emerald-200">
+                  <span class="text-[10px] text-emerald-800 uppercase block font-semibold">1. Due Today</span>
+                  <span class="text-lg font-bold text-emerald-900 block">₹0</span>
+                  <span class="text-[9px] text-emerald-700">Zero fee to join</span>
+                </div>
+                <div class="p-2.5 bg-white border border-hairline">
+                  <span class="text-[10px] text-stone-500 uppercase block font-semibold">2. On WhatsApp Alert</span>
+                  <span id="due-advance" class="text-lg font-bold text-ink-950 block">₹1,000</span>
+                  <span class="text-[9px] text-stone-500">Token after quorum</span>
+                </div>
+                <div class="p-2.5 bg-white border border-hairline">
+                  <span class="text-[10px] text-stone-500 uppercase block font-semibold">3. At Boarding (10 Dec)</span>
+                  <span id="due-boarding" class="text-lg font-bold text-ink-950 block">₹3,299</span>
+                  <span class="text-[9px] text-stone-500">Balance on departure</span>
+                </div>
+                <div class="p-2.5 bg-white border border-hairline">
+                  <span class="text-[10px] text-stone-500 uppercase block font-semibold">Total Package</span>
+                  <span id="fare-total-hamirpur" class="text-lg font-bold text-terracotta-500 block">₹4,299</span>
+                  <span class="text-[9px] text-stone-500">All-in student rate</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit Action -->
+            <div class="pt-2">
+              <button 
+                type="submit" 
+                id="submit-btn"
+                class="w-full py-4 bg-ink-950 text-stone-100 hover:bg-terracotta-500 transition-colors duration-200 font-mono text-xs uppercase tracking-widest flex items-center justify-center gap-3 shadow-sm active:scale-[0.99]"
+              >
+                <span id="submit-btn-text">Book Now — Solan to Manali</span>
+                <span id="submit-btn-badge" class="bg-emerald-400 text-ink-950 px-2 py-0.5 text-[10px] font-bold">CONFIRMED SEATS</span>
+              </button>
+            </div>
+
+            <!-- Reassurance footer -->
+            <div class="pt-2 flex flex-col sm:flex-row items-center justify-between text-[11px] font-mono text-stone-500 gap-2 border-t border-hairline">
+              <span id="form-foot-note">🔒 Official student confirmation pass generated immediately.</span>
+              <a href="https://wa.me/919317743024" target="_blank" class="text-ink-950 font-semibold hover:text-terracotta-500">
+                Official WhatsApp Desk: +91 9317743024
+              </a>
+            </div>
+
+          </form>
+
+          <!-- SUCCESS STATE: DIGITAL EXPEDITION PASS -->
+          <div id="success-screen" class="hidden p-6 sm:p-10 space-y-6 bg-stone-50">
+            
+            <div class="border border-emerald-300 bg-emerald-50 p-4 flex items-center gap-3 text-xs font-mono text-emerald-900">
+              <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block animate-ping"></span>
+              <span id="pass-success-msg" class="font-bold">BOOKING REGISTERED! OFFICIAL EXPEDITION PASS ISSUED</span>
+            </div>
+
+            <!-- The Pass Boarding Ticket -->
+            <div class="border-2 border-ink-950 bg-white p-6 sm:p-8 space-y-6 shadow-md relative">
+              
+              <!-- Ticket Header -->
+              <div class="flex flex-wrap items-center justify-between gap-3 border-b-2 border-dashed border-hairline pb-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-9 h-9 border border-ink-950 flex items-center justify-center font-serif text-xl font-bold bg-ink-950 text-white">
+                    H
+                  </div>
+                  <div>
+                    <h3 class="font-serif text-2xl text-ink-950">Student Expeditions</h3>
+                    <span id="pass-circuit-subtitle" class="text-[10px] font-mono uppercase text-stone-500 tracking-wider">SOLAN → MANALI & TOSH · 23-26 OCT</span>
+                  </div>
+                </div>
+
+                <div class="text-right font-mono">
+                  <span class="text-[10px] text-stone-400 uppercase block">PASS ID</span>
+                  <span id="pass-ref-id" class="text-base font-bold text-terracotta-500">SHL-OCT-9214</span>
+                </div>
+              </div>
+
+              <!-- Ticket Content Grid -->
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 font-mono text-xs">
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">Student Name</span>
+                  <span id="pass-student-name" class="font-bold text-ink-950 text-sm">Aryan Thakur</span>
+                </div>
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">WhatsApp</span>
+                  <span id="pass-phone" class="font-bold text-ink-950 text-sm">+91 98XXXXXXXX</span>
+                </div>
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">Institution</span>
+                  <span id="pass-college" class="font-bold text-ink-950 text-sm truncate block">Shoolini University, Solan</span>
+                </div>
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">Reserved Seats</span>
+                  <span id="pass-seats" class="font-bold text-ink-950 text-sm">1 Seat</span>
+                </div>
+              </div>
+
+              <div class="border-t border-hairline pt-4 grid grid-cols-1 sm:grid-cols-3 gap-4 font-mono text-xs">
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">Boarding Point</span>
+                  <span id="pass-pickup" class="font-medium text-stone-700">Shoolini University Campus Gate</span>
+                </div>
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">Trip Selected</span>
+                  <span id="pass-trip-title" class="font-bold text-terracotta-600">
+                    Solan → Manali (23–26 Oct)
+                  </span>
+                </div>
+                <div>
+                  <span class="text-[10px] text-stone-400 uppercase block">Desk Contact</span>
+                  <span class="font-medium text-stone-700">WhatsApp: +91 9317743024</span>
+                </div>
+              </div>
+
+              <div id="pass-couple-reminder" class="border border-amber-200 bg-amber-50 p-2.5 font-mono text-[11px] text-amber-900">
+                Notice: Standard allocation is quad/triple sharing. Couples requiring a private room will have additional charges.
+              </div>
+
+              <!-- Barcode Mock Strip -->
+              <div class="border-t-2 border-dashed border-hairline pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[11px] text-stone-500">
+                <div class="flex items-center">
+                  <span class="barcode-bar w-1"></span>
+                  <span class="barcode-bar w-2"></span>
+                  <span class="barcode-bar w-0.5"></span>
+                  <span class="barcode-bar w-3"></span>
+                  <span class="barcode-bar w-1"></span>
+                  <span class="barcode-bar w-2"></span>
+                  <span class="barcode-bar w-0.5"></span>
+                  <span class="barcode-bar w-1.5"></span>
+                  <span class="barcode-bar w-3"></span>
+                  <span class="barcode-bar w-1"></span>
+                  <span class="barcode-bar w-0.5"></span>
+                  <span class="barcode-bar w-2"></span>
+                  <span class="barcode-bar w-1"></span>
+                  <span id="pass-barcode-text" class="ml-3 text-stone-700 font-bold">SOLAN BATCH PASS VALIDATED</span>
+                </div>
+                <div id="pass-strip-footer">SHOOLINI ➔ MANALI ➔ TOSH ➔ KASOL</div>
+              </div>
+
+            </div>
+
+            <!-- Action buttons for the pass -->
+            <div class="space-y-3 font-mono text-xs">
+              <p class="text-stone-700 text-xs sm:text-sm">
+                <strong>Next Step:</strong> Click below to send a copy of your pass directly to our official WhatsApp Desk (<strong>9317743024</strong>) for instantaneous confirmation and squad briefing.
+              </p>
+
+              <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                <button 
+                  type="button" 
+                  onclick="pushPassToWhatsApp()" 
+                  class="flex-1 py-3.5 bg-emerald-700 text-white font-mono text-xs uppercase tracking-wider hover:bg-emerald-800 transition flex items-center justify-center gap-2"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.149.929 3.182 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.768-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.232-.038.363.276.144.346.49 1.198.533 1.285.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.304c-.087.086-.179.18-.077.355.101.174.45 0.743.966 1.202.665.592 1.226.776 1.4.863.174.087.275.072.377-.044.101-.116.433-.505.549-.679.116-.173.232-.144.39-.087.16.058 1.012.477 1.186.564.173.087.289.13.332.202.043.073.043.419-.101.824z"/></svg>
+                  <span>Send Pass Copy to WhatsApp (9317743024)</span>
+                </button>
+
+                <button 
+                  type="button" 
+                  onclick="resetBookingForm()" 
+                  class="py-3.5 px-6 border border-hairline bg-white text-stone-700 hover:text-ink-950 hover:bg-stone-150 transition"
+                >
+                  Edit / Book for Another Friend
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 07: EDITORIAL PHOTO JOURNAL (HIGH QUALITY VERIFIED MOUNTAIN VISUALS) -->
+    <section id="gallery" class="py-20 md:py-28 border-b border-hairline bg-stone-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between pb-8 border-b border-hairline gap-4">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">SECTION 07 // FIELD ARCHIVE</span>
+            <h2 class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+              Photographic Journal
+            </h2>
+          </div>
+          <p class="text-xs font-mono text-stone-500 uppercase tracking-wider max-w-sm">
+            High mountain stills across Tosh Valley, Sissu snow passes, Parvati River, Old Manali, and Kasol campfire nights.
+          </p>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-6">
+          
+          <!-- Photo 1: Tosh Valley / Kasol Ridges -->
+          <div class="lg:col-span-7 border border-hairline bg-white p-3 cursor-pointer group" onclick="openPhotoModal(0)">
+            <div class="aspect-[16/10] overflow-hidden bg-stone-200">
+              <img 
+                src="https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1400&q=80" 
+                alt="Tosh Valley Scenic Mountain Ridges" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="lazy"
+              />
+            </div>
+            <div class="mt-3 flex items-center justify-between font-mono text-[11px] text-stone-500">
+              <span class="text-terracotta-500 font-bold uppercase">ARCHIVE #01</span>
+              <span>TOSH VALLEY & PARVATI PEAKS</span>
+              <span>2,400M ELEVATION</span>
+            </div>
+          </div>
+
+          <!-- Photo 2: Sissu Snowfields Lahaul -->
+          <div class="lg:col-span-5 border border-hairline bg-white p-3 cursor-pointer group" onclick="openPhotoModal(1)">
+            <div class="aspect-[16/10] overflow-hidden bg-stone-200">
+              <img 
+                src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80" 
+                alt="Sissu Snow Ridges Lahaul Valley" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="lazy"
+              />
+            </div>
+            <div class="mt-3 flex items-center justify-between font-mono text-[11px] text-stone-500">
+              <span class="text-terracotta-500 font-bold uppercase">ARCHIVE #02</span>
+              <span>SISSU SNOWFIELDS</span>
+              <span>3,120M LAHAUL</span>
+            </div>
+          </div>
+
+          <!-- Photo 3: Parvati Glacial River Kasol -->
+          <div class="lg:col-span-4 border border-hairline bg-white p-3 cursor-pointer group" onclick="openPhotoModal(2)">
+            <div class="aspect-[4/3] overflow-hidden bg-stone-200">
+              <img 
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" 
+                alt="Parvati Glacial River Kasol" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="lazy"
+              />
+            </div>
+            <div class="mt-3 flex items-center justify-between font-mono text-[11px] text-stone-500">
+              <span class="text-terracotta-500 font-bold uppercase">ARCHIVE #03</span>
+              <span>PARVATI GLACIAL RIVER</span>
+            </div>
+          </div>
+
+          <!-- Photo 4: Hadimba Cedar Canopy & Manali -->
+          <div class="lg:col-span-4 border border-hairline bg-white p-3 cursor-pointer group" onclick="openPhotoModal(3)">
+            <div class="aspect-[4/3] overflow-hidden bg-stone-200">
+              <img 
+                src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80" 
+                alt="Manali Cedar Forest Canopy" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="lazy"
+              />
+            </div>
+            <div class="mt-3 flex items-center justify-between font-mono text-[11px] text-stone-500">
+              <span class="text-terracotta-500 font-bold uppercase">ARCHIVE #04</span>
+              <span>OLD MANALI CEDAR CANOPY</span>
+            </div>
+          </div>
+
+          <!-- Photo 5: Kasol Riverside Bonfire Session -->
+          <div class="lg:col-span-4 border border-hairline bg-white p-3 cursor-pointer group" onclick="openPhotoModal(4)">
+            <div class="aspect-[4/3] overflow-hidden bg-stone-200">
+              <img 
+                src="https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1000&q=80" 
+                alt="Kasol Riverside Bonfire and Stars" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="lazy"
+              />
+            </div>
+            <div class="mt-3 flex items-center justify-between font-mono text-[11px] text-stone-500">
+              <span class="text-terracotta-500 font-bold uppercase">ARCHIVE #05</span>
+              <span>KASOL RIVERBANK CAMPFIRE</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PHOTO MODAL LIGHTBOX -->
+    <div id="photo-modal" class="fixed inset-0 z-50 bg-ink-950/95 backdrop-blur-md hidden items-center justify-center p-4 sm:p-8" onclick="closePhotoModal(event)">
+      <div class="max-w-4xl w-full border border-ink-800 bg-ink-900 p-4 space-y-4">
+        <div class="flex items-center justify-between text-xs font-mono text-stone-400 border-b border-ink-800 pb-3">
+          <span id="modal-tag" class="text-terracotta-400 font-bold">EXPEDITION ARCHIVE</span>
+          <button onclick="dismissPhotoModal()" class="text-white hover:text-terracotta-400 font-mono text-xs uppercase tracking-widest">
+            [CLOSE ESC]
+          </button>
+        </div>
+        <div class="max-h-[70vh] flex items-center justify-center overflow-hidden">
+          <img id="modal-image" src="" alt="Photo Full View" class="max-h-[68vh] w-auto object-contain">
+        </div>
+        <p id="modal-caption" class="text-xs font-mono text-stone-300 text-center pt-2"></p>
+      </div>
+    </div>
+
+    <!-- SECTION 08: FIELD POLICIES & STUDENT FAQS -->
+    <section id="faq" class="py-20 md:py-28 border-b border-hairline bg-stone-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-xl mx-auto mb-14">
+          <span class="text-xs font-mono uppercase tracking-widest text-terracotta-500 font-bold block mb-1">SECTION 08 // FIELD PROTOCOLS</span>
+          <h2 class="font-serif text-3xl sm:text-5xl text-ink-950 font-normal">
+            Operational FAQs & Policies
+          </h2>
+          <p class="mt-2 text-xs font-mono text-stone-600 uppercase tracking-wider">
+            Guidelines on Shoolini (Solan) and Hamirpur batches, rooming policies & safety.
+          </p>
+        </div>
+
+        <div class="space-y-3 font-mono text-xs">
+          
+          <details class="border border-hairline bg-white p-5 transition-all" open>
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-ink-950">
+              <span class="text-sm font-sans font-bold">What is the room allocation and private room policy for couples?</span>
+              <svg class="w-4 h-4 text-stone-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="mt-4 pt-4 border-t border-hairline text-stone-600 font-sans text-sm leading-relaxed space-y-2">
+              <p>
+                Standard package pricing covers shared rooms (quad/triple sharing) segregated strictly by gender, or shared together for intact friend groups.
+              </p>
+              <p>
+                <strong>Couples requiring a separate/private room will have additional charges.</strong> The exact room upgrade surplus depends on hotel availability and is coordinated directly via our WhatsApp desk (<strong>9317743024</strong>).
+              </p>
+            </div>
+          </details>
+
+          <details class="border border-hairline bg-white p-5 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-ink-950">
+              <span class="text-sm font-sans font-bold">Are Solan and Hamirpur trips traveling together or separate?</span>
+              <svg class="w-4 h-4 text-stone-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="mt-4 pt-4 border-t border-hairline text-stone-600 font-sans text-sm leading-relaxed">
+              They are <strong>two completely separate trips</strong> running on different dates with distinct itineraries:
+              <ul class="list-disc ml-5 mt-2 space-y-1">
+                <li><strong>Solan → Manali & Tosh:</strong> Confirmed batch running <strong>23rd Oct – 26th Oct</strong>, boarding and dropping directly at Shoolini University campus, Solan (₹5,799).</li>
+                <li><strong>Hamirpur → Manali & Sissu:</strong> Winter batch running <strong>10th Dec – 13th Dec</strong>, boarding at NIT Hamirpur and Hamirpur Bus Stand (₹4,299).</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="border border-hairline bg-white p-5 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-ink-950">
+              <span class="text-sm font-sans font-bold">How do I confirm my seat after submitting the form?</span>
+              <svg class="w-4 h-4 text-stone-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="mt-4 pt-4 border-t border-hairline text-stone-600 font-sans text-sm leading-relaxed">
+              Upon form submission, your digital pass is issued on screen. Simply click the green WhatsApp button to forward your pass to our campus desk at <strong>9317743024</strong>. Our coordinator will lock your seat numbers and provide the pickup briefing.
+            </div>
+          </details>
+
+          <details class="border border-hairline bg-white p-5 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-ink-950">
+              <span class="text-sm font-sans font-bold">Is this expedition safe for female college students and first-timers?</span>
+              <svg class="w-4 h-4 text-stone-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="mt-4 pt-4 border-t border-hairline text-stone-600 font-sans text-sm leading-relaxed">
+              Yes, rigorously so. We operate with a dedicated female trip coordinator on our crew. Room arrangements are strictly verified and segregated by gender unless an intact friend squad requests their own setup. Gated properties with round-the-clock staff eliminate external tourist nuisance.
+            </div>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- EDITORIAL FOOTER (WHATSAPP 9317743024 INTEGRATED, INSTAGRAM REMOVED) -->
+  <footer class="bg-ink-950 text-stone-300 pt-16 pb-28 md:pb-16 border-t border-ink-850 font-mono text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-ink-850">
+        
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 border border-white text-white font-serif text-xl font-bold flex items-center justify-center">
+              H
+            </div>
+            <span class="font-serif text-2xl text-white tracking-tight">HMR trips</span>
+          </div>
+          <p class="text-stone-400 font-sans text-xs sm:text-sm leading-relaxed max-w-sm">
+            Student mountain operations across Himachal Pradesh. Transparent, verified, and safe group expeditions engineered for college cohorts from Solan, Hamirpur, and beyond.
+          </p>
+          <div class="text-[11px] text-stone-500 uppercase tracking-wider space-y-0.5">
+            <div>CAMPUS 01: SHOOLINI UNIVERSITY, SOLAN, HP</div>
+            <div>CAMPUS 02: NIT HAMIRPUR — 177001, HP, INDIA</div>
+          </div>
+        </div>
+
+        <div class="md:col-span-3 space-y-3">
+          <span class="text-white uppercase tracking-widest block font-bold">CIRCUITS & SECTIONS</span>
+          <ul class="space-y-2 text-stone-400">
+            <li><button onclick="setTripMode('solan'); location.href='#trip-selector-anchor';" class="text-left text-terracotta-400 font-bold hover:text-white transition">★ Solan → Manali (23–26 Oct)</button></li>
+            <li><button onclick="setTripMode('hamirpur'); location.href='#trip-selector-anchor';" class="text-left hover:text-white transition">Hamirpur → Manali (10–13 Dec)</button></li>
+            <li><a href="#destinations" class="hover:text-white transition">Featured Destinations</a></li>
+            <li><a href="#itinerary" class="hover:text-white transition">4-Day Route Itinerary</a></li>
+            <li><a href="#ledger" class="hover:text-white transition">Cost Ledger & Inclusions</a></li>
+            <li><a href="#booking-section" class="hover:text-white transition">Book / Register</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4 space-y-3">
+          <span class="text-white uppercase tracking-widest block font-bold">CAMPUS DESK</span>
+          <p class="text-stone-400 font-sans text-xs">
+            Direct coordination for student batches, hostel squads, private rooms, and seat locks:
+          </p>
+          <div class="pt-2 space-y-2 text-stone-200">
+            <a href="https://wa.me/919317743024" target="_blank" rel="noopener noreferrer" class="hover:text-terracotta-400 transition flex items-center gap-2 text-sm font-bold text-emerald-400">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>WhatsApp Desk: +91 9317743024</span>
+            </a>
+            <div class="text-stone-400 text-[11px]">
+              Available 24x7 for Shoolini University & Hamirpur student cohorts.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-stone-500">
+        <p class="text-center sm:text-left">
+          FIELD ADVISORY: Transit safety and mountain protocols maintained under HP Tourism & Police guidelines.
+        </p>
+        <span class="shrink-0 font-mono">
+          © <span id="current-year"></span> HMR TRIPS. ALL RIGHTS RESERVED.
+        </span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY BOTTOM DOCK (DYNAMIC TO SELECTED TRIP) -->
+  <aside aria-label="Mobile Registration CTA" id="mobile-sticky-dock" class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-ink-950/95 backdrop-blur-md border-t border-ink-800 px-4 py-3 shadow-2xl transition-transform duration-300">
+    <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
+      <div>
+        <div id="dock-meta" class="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">
+          SOLAN · 23-26 OCT (CONFIRMED)
+        </div>
+        <div class="flex items-baseline gap-1">
+          <span id="dock-price" class="font-serif text-xl text-white">₹5,799 Total</span>
+          <span class="text-[10px] font-mono text-stone-400">/ Per Person</span>
+        </div>
+      </div>
+      
+      <a 
+        href="#booking-section"
+        id="dock-btn"
+        class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs uppercase tracking-widest active:scale-95 transition flex items-center gap-1.5 font-bold"
+      >
+        <span id="dock-btn-text">Book Now</span>
+        <span id="dock-btn-pill" class="bg-black/30 px-1 py-0.5 text-[10px]">CONFIRMED</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- CLIENT SCRIPTS & INTERACTIONS -->
+  <script>
+    /* State Tracker */
+    let currentTrip = 'solan'; // 'solan' (FIRST & HIGHLIGHTED) or 'hamirpur'
+    let seatQuantity = 1;
+
+    const solanFare = 5799;
+    const hamirpurFare = 4299;
+    const hamirpurAdvance = 1000;
+    const hamirpurBoarding = 3299;
+
+    const coordWhatsApp = "919317743024";
+
+    // Dynamic Year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Mobile Navigation Drawer Controls
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    const hamburgerSvg = document.getElementById('hamburger-svg');
+    const closeSvg = document.getElementById('close-svg');
+    const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+
+    mobileToggle.addEventListener('click', () => {
+      const isOpen = !mobileDrawer.classList.contains('hidden');
+      if (isOpen) {
+        mobileDrawer.classList.add('hidden');
+        hamburgerSvg.classList.remove('hidden');
+        closeSvg.classList.add('hidden');
+      } else {
+        mobileDrawer.classList.remove('hidden');
+        hamburgerSvg.classList.add('hidden');
+        closeSvg.classList.remove('hidden');
+      }
+    });
+
+    mobileNavItems.forEach(item => {
+      item.addEventListener('click', () => {
+        mobileDrawer.classList.add('hidden');
+        hamburgerSvg.classList.remove('hidden');
+        closeSvg.classList.add('hidden');
+      });
+    });
+
+    // Populate Select Options based on active trip
+    function updateDropdownOptions(trip) {
+      const collegeSelect = document.getElementById('college-name');
+      const pickupSelect = document.getElementById('pickup-select');
+
+      if (!collegeSelect || !pickupSelect) return;
+
+      if (trip === 'solan') {
+        collegeSelect.innerHTML = `
+          <option value="Shoolini University, Solan" selected>★ Shoolini University, Solan (Main Campus)</option>
+          <option value="Jaypee University of Information Technology (JUIT), Waknaghat">Jaypee University (JUIT Waknaghat, Solan)</option>
+          <option value="Dr. YS Parmar University of Horticulture & Forestry, Nauni">Dr. YS Parmar UHF (Nauni, Solan)</option>
+          <option value="Govt Post Graduate College Solan">Govt Post Graduate College, Solan</option>
+          <option value="LR Group of Institutes, Solan">LR Group of Institutes, Solan</option>
+          <option value="Green Hills Engineering College, Kumarhatti">Green Hills Engineering College, Kumarhatti, Solan</option>
+          <option value="Govt Polytechnic College, Kandaghat">Govt Polytechnic College, Kandaghat, Solan</option>
+          <option value="Manav Bharti University, Solan">Manav Bharti University, Solan</option>
+          <option value="Bhojia Dental College & Institute, Baddi/Solan">Bhojia Group of Institutes, Solan</option>
+          <option value="Govt Degree College, Kandaghat/Dharampur">Govt Degree College, Kandaghat / Dharampur</option>
+          <option value="Other Himachal Institution">Other Himachal Student Cohort</option>
+        `;
+
+        pickupSelect.innerHTML = `
+          <option value="Shoolini University Campus Main Gate (07:00 AM)" selected>★ Shoolini University Campus Main Gate (07:00 AM)</option>
+          <option value="Shoolini Pine / Sultanpur Chowk (07:10 AM)">Shoolini Pine / Sultanpur Chowk (07:10 AM)</option>
+          <option value="Solan Bypass / Mall Road Old Bus Stand (07:25 AM)">Solan Bypass / Mall Road (07:25 AM)</option>
+          <option value="Chambaghat Chowk, Solan (07:35 AM)">Chambaghat Chowk, Solan (07:35 AM)</option>
+          <option value="Kandaghat Junction (07:50 AM)">Kandaghat Junction (07:50 AM)</option>
+          <option value="Kumarhatti / Dharampur Chowk (07:15 AM)">Kumarhatti / Dharampur Chowk (07:15 AM)</option>
+        `;
+      } else {
+        collegeSelect.innerHTML = `
+          <option value="NIT Hamirpur" selected>★ NIT Hamirpur</option>
+          <option value="Himachal Pradesh Technical University (HPTU)">HPTU Hamirpur</option>
+          <option value="Netaji Subhash Chandra Bose Govt College Hamirpur">Govt Degree College Hamirpur</option>
+          <option value="Govt Polytechnic Hamirpur">Govt Polytechnic Hamirpur</option>
+          <option value="Other Himachal Institution">Other Himachal College</option>
+        `;
+
+        pickupSelect.innerHTML = `
+          <option value="NIT Hamirpur Gate 1 (05:45 AM)" selected>★ NIT Hamirpur — Main Gate 1 (05:45 AM)</option>
+          <option value="Hamirpur New Bus Stand (06:05 AM)">Hamirpur New Bus Stand (06:05 AM)</option>
+          <option value="Anu Chowk / Degree College (06:15 AM)">Anu Chowk / Degree College (06:15 AM)</option>
+          <option value="Salasi Chowk (06:25 AM)">Salasi Chowk (06:25 AM)</option>
+        `;
+      }
+    }
+
+    // Dynamic Trip Switcher (Sets either 'solan' or 'hamirpur')
+    function setTripMode(trip) {
+      currentTrip = trip;
+
+      const cardSolan = document.getElementById('trip-card-solan');
+      const cardHamirpur = document.getElementById('trip-card-hamirpur');
+      const badgeSolan = document.getElementById('active-badge-solan');
+      const badgeHamirpur = document.getElementById('active-badge-hamirpur');
+
+      const topSolan = document.getElementById('topbar-solan');
+      const topHamirpur = document.getElementById('topbar-hamirpur');
+      const topCta = document.getElementById('topbar-cta');
+
+      const heroHeadSolan = document.getElementById('hero-heading-solan');
+      const heroHeadHamirpur = document.getElementById('hero-heading-hamirpur');
+
+      const heroMetaBadge = document.getElementById('hero-meta-badge');
+      const heroMetaDates = document.getElementById('hero-meta-dates');
+      const heroMetaPill = document.getElementById('hero-meta-pill');
+      const heroMetaOrigin = document.getElementById('hero-meta-origin');
+
+      const heroTagText = document.getElementById('hero-tag-text');
+      const heroTagDates = document.getElementById('hero-tag-dates');
+      const heroPriceTitle = document.getElementById('hero-price-title');
+      const heroPriceVal = document.getElementById('hero-price-val');
+      const heroPriceSub = document.getElementById('hero-price-sub');
+      const heroDesc = document.getElementById('hero-description');
+
+      const stripSolan = document.getElementById('strip-solan');
+      const stripHamirpur = document.getElementById('strip-hamirpur');
+      const heroCtaLabel = document.getElementById('hero-cta-label');
+      const heroCtaBadge = document.getElementById('hero-cta-badge');
+
+      const heroImg = document.getElementById('hero-banner-image');
+      const heroCardDates = document.getElementById('hero-card-dates');
+      const heroCardSquad = document.getElementById('hero-card-squad');
+      const heroCardCap = document.getElementById('hero-card-cap');
+
+      const destTitle = document.getElementById('destinations-title');
+      const destSub = document.getElementById('destinations-sub');
+      const destSolanGrid = document.getElementById('destinations-solan-grid');
+      const destHamirpurGrid = document.getElementById('destinations-hamirpur-grid');
+
+      const flowTitle = document.getElementById('flow-title');
+      const flowSub = document.getElementById('flow-sub');
+      const flowSolan = document.getElementById('flow-solan');
+      const flowHamirpur = document.getElementById('flow-hamirpur');
+
+      const itinTag = document.getElementById('itinerary-tag');
+      const itinHeading = document.getElementById('itinerary-heading');
+      const itinSolanCont = document.getElementById('itinerary-solan-container');
+      const itinHamirpurCont = document.getElementById('itinerary-hamirpur-container');
+
+      const highSolan = document.getElementById('highlight-solan');
+      const highHamirpur = document.getElementById('highlight-hamirpur');
+
+      const ledgerTitle = document.getElementById('ledger-title');
+      const ledgerSub = document.getElementById('ledger-sub');
+      const ledgerSolan = document.getElementById('ledger-solan');
+      const ledgerHamirpur = document.getElementById('ledger-hamirpur');
+
+      const formPillText = document.getElementById('form-pill-text');
+      const formPillFare = document.getElementById('form-pill-fare');
+      const formMainTitle = document.getElementById('form-main-title');
+      const formSubTitle = document.getElementById('form-sub-title');
+      const formSubNote = document.getElementById('form-sub-note');
+      const formHeadBadge = document.getElementById('form-header-badge');
+      const formHeadRoute = document.getElementById('form-header-route');
+      const formHeadStatus = document.getElementById('form-header-status');
+      const selectedTripInput = document.getElementById('selected-trip-input');
+      const formLedgerSolan = document.getElementById('form-ledger-strip-solan');
+      const formLedgerHamirpur = document.getElementById('form-ledger-strip-hamirpur');
+      const submitBtnText = document.getElementById('submit-btn-text');
+      const submitBtnBadge = document.getElementById('submit-btn-badge');
+      const formFootNote = document.getElementById('form-foot-note');
+
+      const navCtaText = document.getElementById('nav-cta-text');
+      const navCtaPill = document.getElementById('nav-cta-pill');
+
+      const dockMeta = document.getElementById('dock-meta');
+      const dockPrice = document.getElementById('dock-price');
+      const dockBtnText = document.getElementById('dock-btn-text');
+      const dockBtnPill = document.getElementById('dock-btn-pill');
+      const mobileDrawerCta = document.getElementById('mobile-drawer-cta');
+
+      if (trip === 'solan') {
+        // Active visual card
+        cardSolan.className = "trip-card-active cursor-pointer p-6 sm:p-7 border-2 transition-all duration-300 relative bg-white space-y-4";
+        cardHamirpur.className = "cursor-pointer p-6 sm:p-7 border border-hairline transition-all duration-300 relative bg-stone-50 hover:bg-white space-y-4";
+        badgeSolan.classList.remove('hidden');
+        badgeHamirpur.classList.add('hidden');
+
+        // Top bar
+        topSolan.classList.remove('hidden');
+        topHamirpur.classList.add('hidden');
+        topCta.textContent = "BOOK NOW (CONFIRMED) →";
+
+        // Navigation CTA
+        navCtaText.textContent = "Book Now";
+        navCtaPill.textContent = "CONFIRMED";
+        navCtaPill.className = "bg-emerald-400 text-ink-950 font-bold px-1.5 py-0.2 rounded text-[10px]";
+
+        // Hero
+        heroHeadSolan.classList.remove('hidden');
+        heroHeadHamirpur.classList.add('hidden');
+        heroMetaBadge.textContent = "[CONFIRMED BATCH]";
+        heroMetaBadge.className = "bg-terracotta-500 text-white px-2 py-0.5 font-bold";
+        heroMetaDates.textContent = "23 OCT — 26 OCT (4D / 3N)";
+        heroMetaPill.textContent = "SEAT BOOKINGS OPEN";
+        heroMetaOrigin.textContent = "ORIGIN: SHOOLINI UNIVERSITY, SOLAN";
+
+        heroTagText.textContent = "SHOOLINI UNIVERSITY EXPEDITION";
+        heroTagDates.textContent = "/ 23 — 26 OCTOBER";
+        heroPriceTitle.innerHTML = 'Travel · Hotel Stay · Breakfast · Dinner · Tosh Excursion · DJ Party <span class="italic text-terracotta-500">&amp;</span> Sightseeing';
+        heroPriceVal.textContent = "₹5,799";
+        heroPriceSub.textContent = "/ person";
+        heroDesc.textContent = "4 Days & 3 Nights designed for students from Shoolini University, Solan. High-altitude drive through Atal Tunnel, Sissu snow viewpoints, Solang Valley, day excursion to picturesque Tosh Valley, Kasol market cafes, Manikaran Sahib, and Kasol DJ party & group dinner.";
+
+        stripSolan.classList.remove('hidden');
+        stripHamirpur.classList.add('hidden');
+        heroCtaLabel.textContent = "Book Now — Solan to Manali";
+        heroCtaBadge.textContent = "CONFIRMED SEATS";
+
+        heroImg.src = "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1500&q=80";
+        heroCardDates.textContent = "DATES: 23—26 OCT";
+        heroCardSquad.textContent = "SHOOLINI SQUAD RUN";
+        heroCardCap.textContent = "LIMITED SEATS";
+
+        // Destinations
+        destTitle.textContent = "Solan Circuit: Manali, Tosh & Kasol";
+        destSub.textContent = "High mountain vistas, scenic Tosh valley, Atal Tunnel, Solang Valley, and Kasol cafe culture.";
+        destSolanGrid.classList.remove('hidden');
+        destHamirpurGrid.classList.add('hidden');
+
+        // Flow
+        flowTitle.textContent = "Shoolini University Booking Flow";
+        flowSub.textContent = "Confirmed batch for 23–26 October. Easy registration with verified squad coordination.";
+        flowSolan.classList.remove('hidden');
+        flowHamirpur.classList.add('hidden');
+
+        // Itinerary
+        itinTag.textContent = "SECTION 03 // 23 — 26 OCTOBER ROUTE LOG";
+        itinHeading.textContent = "Solan → Manali & Tosh Itinerary";
+        itinSolanCont.classList.remove('hidden');
+        itinHamirpurCont.classList.add('hidden');
+
+        // Highlight
+        highSolan.classList.remove('hidden');
+        highHamirpur.classList.add('hidden');
+
+        // Ledger
+        ledgerTitle.textContent = "Solan Package Breakdown (₹5,799)";
+        ledgerSub.textContent = "Exact all-inclusive breakdown with zero hidden charges.";
+        ledgerSolan.classList.remove('hidden');
+        ledgerHamirpur.classList.add('hidden');
+
+        // Form
+        formPillText.textContent = "CONFIRMED SEATS BOOKING";
+        formPillFare.textContent = "₹5,799 ALL-IN";
+        formMainTitle.textContent = "Book Your Seat — Solan to Manali";
+        formSubTitle.textContent = "Shoolini University Batch (23rd Oct – 26th Oct). Direct booking confirmation.";
+        formSubNote.textContent = "Boarding from Shoolini University campus. WhatsApp desk: 9317743024.";
+        formHeadBadge.textContent = "SOLAN // 23-26 OCT BATCH";
+        formHeadRoute.textContent = "SHOOLINI → MANALI, TOSH & KASOL";
+        formHeadStatus.textContent = "CONFIRMED EXPEDITION";
+        selectedTripInput.value = "SOLAN → MANALI (23-26 Oct)";
+        formLedgerSolan.classList.remove('hidden');
+        formLedgerHamirpur.classList.add('hidden');
+        submitBtnText.textContent = "Book Now — Solan to Manali";
+        submitBtnBadge.textContent = "CONFIRMED SEATS";
+        formFootNote.textContent = "🔒 Official student confirmation pass generated immediately.";
+
+        // Dock
+        dockMeta.textContent = "SOLAN · 23-26 OCT (CONFIRMED)";
+        dockPrice.textContent = "₹5,799 Total";
+        dockBtnText.textContent = "Book Now";
+        dockBtnPill.textContent = "CONFIRMED";
+        mobileDrawerCta.innerHTML = `<span>Book Now (Solan Batch)</span><span class="bg-emerald-400 text-ink-950 font-bold px-1.5 py-0.5 text-[10px]">CONFIRMED</span>`;
+
+      } else {
+        // Hamirpur Mode
+        cardSolan.className = "cursor-pointer p-6 sm:p-7 border border-hairline transition-all duration-300 relative bg-stone-50 hover:bg-white space-y-4";
+        cardHamirpur.className = "trip-card-active cursor-pointer p-6 sm:p-7 border-2 transition-all duration-300 relative bg-white space-y-4";
+        badgeSolan.classList.add('hidden');
+        badgeHamirpur.classList.remove('hidden');
+
+        // Top bar
+        topSolan.classList.add('hidden');
+        topHamirpur.classList.remove('hidden');
+        topCta.textContent = "ADD INTEREST FOR FREE →";
+
+        // Navigation CTA
+        navCtaText.textContent = "Add Interest";
+        navCtaPill.textContent = "FREE";
+        navCtaPill.className = "bg-emerald-400 text-ink-950 font-bold px-1.5 py-0.2 rounded text-[10px]";
+
+        // Hero
+        heroHeadSolan.classList.add('hidden');
+        heroHeadHamirpur.classList.remove('hidden');
+        heroMetaBadge.textContent = "[WINTER BATCH]";
+        heroMetaBadge.className = "text-terracotta-500 font-bold";
+        heroMetaDates.textContent = "10 DEC — 13 DEC (4D / 3N)";
+        heroMetaPill.textContent = "ZERO ADVANCE TODAY (₹0)";
+        heroMetaOrigin.textContent = "ORIGIN: NIT HAMIRPUR / BUS STAND";
+
+        heroTagText.textContent = "HAMIRPUR STUDENT EXPEDITION";
+        heroTagDates.textContent = "/ 10 — 13 DECEMBER";
+        heroPriceTitle.innerHTML = 'Travel · Hotel Stay · Breakfast · Lunch · Dinner · Bonfire <span class="italic text-terracotta-500">&amp;</span> Activities';
+        heroPriceVal.textContent = "₹4,299";
+        heroPriceSub.textContent = "";
+        heroDesc.textContent = "4 Days & 3 Nights of winter mountain trails. Crossing Atal Tunnel into snowy Sissu, Jogini Waterfall, Hadimba Temple, Manikaran Sahib hot springs, and an electric Riverside Bonfire & Music Party in Kasol.";
+
+        stripSolan.classList.add('hidden');
+        stripHamirpur.classList.remove('hidden');
+        heroCtaLabel.textContent = "Add Interest for Free";
+        heroCtaBadge.textContent = "FREE ENTRY";
+
+        heroImg.src = "/images/himachal-travel-collage.jpg";
+        heroCardDates.textContent = "DATES: 10—13 DEC";
+        heroCardSquad.textContent = "HAMIRPUR SQUAD RUN";
+        heroCardCap.textContent = "26 SEATS CAP";
+
+        // Destinations
+        destTitle.textContent = "7 Destinations Covered";
+        destSub.textContent = "From the high snowscapes of Lahaul to the sacred hot waters of Manikaran and riverside beats of Kasol.";
+        destSolanGrid.classList.add('hidden');
+        destHamirpurGrid.classList.remove('hidden');
+
+        // Flow
+        flowTitle.textContent = "Zero Upfront Commitment";
+        flowSub.textContent = "College plans fluctuate. You do not pay a single rupee until the batch is 100% verified to run.";
+        flowSolan.classList.add('hidden');
+        flowHamirpur.classList.remove('hidden');
+
+        // Itinerary
+        itinTag.textContent = "SECTION 03 // 10 — 13 DECEMBER ROUTE";
+        itinHeading.textContent = "Hamirpur → Manali & Sissu Schedule";
+        itinSolanCont.classList.add('hidden');
+        itinHamirpurCont.classList.remove('hidden');
+
+        // Highlight
+        highSolan.classList.add('hidden');
+        highHamirpur.classList.remove('hidden');
+
+        // Ledger
+        ledgerTitle.textContent = "Inclusions & Out-of-Pocket Ledger";
+        ledgerSub.textContent = "Exact side-by-side breakdown of the ₹4,299 student fare.";
+        ledgerSolan.classList.add('hidden');
+        ledgerHamirpur.classList.remove('hidden');
+
+        // Form
+        formPillText.textContent = "ZERO-RISK REGISTRATION ENGINE";
+        formPillFare.textContent = "₹0 DUE TODAY";
+        formMainTitle.textContent = "Add Your Interest for Free";
+        formSubTitle.textContent = "We'll notify you on WhatsApp for confirmation 2 weeks before the trip.";
+        formSubNote.textContent = "10 — 13 December Winter Batch. Pay ₹1,000 advance only once we notify you.";
+        formHeadBadge.textContent = "HMR // 10-13 DEC BATCH";
+        formHeadRoute.textContent = "HAMIRPUR → MANALI, SISSU & KASOL";
+        formHeadStatus.textContent = "₹0 UPFRONT COMMITMENT";
+        selectedTripInput.value = "HAMIRPUR → MANALI (10-13 Dec)";
+        formLedgerSolan.classList.add('hidden');
+        formLedgerHamirpur.classList.remove('hidden');
+        submitBtnText.textContent = "Add Interest for Free";
+        submitBtnBadge.textContent = "10-13 DEC BATCH";
+        formFootNote.textContent = "🔒 Zero payment card or UPI needed today. We alert you on WhatsApp.";
+
+        // Dock
+        dockMeta.textContent = "10-13 DEC · ₹0 DUE TODAY";
+        dockPrice.textContent = "₹4,299 Total";
+        dockBtnText.textContent = "Add Interest";
+        dockBtnPill.textContent = "FREE";
+        mobileDrawerCta.innerHTML = `<span>Add Interest (Hamirpur)</span><span class="bg-emerald-400 text-ink-950 font-bold px-1.5 py-0.5 text-[10px]">FREE</span>`;
+      }
+
+      updateDropdownOptions(trip);
+      updatePricingCalculations();
+    }
+
+    // Solan Day Switcher
+    function switchSolanDay(dayNum) {
+      for (let i = 1; i <= 4; i++) {
+        const btn = document.getElementById(`solan-tab-${i}`);
+        const pane = document.getElementById(`solan-pane-${i}`);
+        if (i === dayNum) {
+          btn.className = "py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition bg-white text-ink-950 font-bold border border-hairline shadow-sm";
+          pane.classList.remove('hidden');
+        } else {
+          btn.className = "py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950";
+          pane.classList.add('hidden');
+        }
+      }
+    }
+
+    // Hamirpur Day Switcher
+    function switchHamirpurDay(dayNum) {
+      for (let i = 1; i <= 4; i++) {
+        const btn = document.getElementById(`hamirpur-tab-${i}`);
+        const pane = document.getElementById(`hamirpur-pane-${i}`);
+        if (i === dayNum) {
+          btn.className = "py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition bg-white text-ink-950 font-bold border border-hairline shadow-sm";
+          pane.classList.remove('hidden');
+        } else {
+          btn.className = "py-3 px-4 font-mono text-xs uppercase tracking-wider text-center transition text-stone-700 hover:text-ink-950";
+          pane.classList.add('hidden');
+        }
+      }
+    }
+
+    // Seat Counter Controller
+    function adjustSeatCount(delta) {
+      const nextVal = seatQuantity + delta;
+      if (nextVal >= 1 && nextVal <= 6) {
+        seatQuantity = nextVal;
+        document.getElementById('seat-count-num').textContent = seatQuantity;
+        document.getElementById('seats-input').value = seatQuantity;
+        updatePricingCalculations();
+      }
+    }
+
+    function updatePricingCalculations() {
+      // Solan calculations
+      const solanTotal = seatQuantity * solanFare;
+      const fareSolanElem = document.getElementById('fare-total-solan');
+      if (fareSolanElem) {
+        fareSolanElem.textContent = '₹' + solanTotal.toLocaleString('en-IN');
+      }
+
+      // Hamirpur calculations
+      const hamAdvance = seatQuantity * hamirpurAdvance;
+      const hamBalance = seatQuantity * hamirpurBoarding;
+      const hamTotal = seatQuantity * hamirpurFare;
+
+      const dueAdvanceElem = document.getElementById('due-advance');
+      const dueBoardElem = document.getElementById('due-boarding');
+      const fareHamElem = document.getElementById('fare-total-hamirpur');
+
+      if (dueAdvanceElem) dueAdvanceElem.textContent = '₹' + hamAdvance.toLocaleString('en-IN');
+      if (dueBoardElem) dueBoardElem.textContent = '₹' + hamBalance.toLocaleString('en-IN');
+      if (fareHamElem) fareHamElem.textContent = '₹' + hamTotal.toLocaleString('en-IN');
+    }
+
+    // Form Submission Handler
+    let currentPassData = null;
+
+    async function handleFormSubmission(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('student-name').value.trim();
+      const phone = document.getElementById('student-phone').value.trim();
+      const college = document.getElementById('college-name').value;
+      const pickup = document.getElementById('pickup-select').value;
+      const valMsg = document.getElementById('validation-msg');
+
+      if (!name || !phone || phone.length !== 10) {
+        valMsg.textContent = "Please provide your Full Name and a valid 10-digit WhatsApp number.";
+        valMsg.classList.remove('hidden');
+        return;
+      }
+      valMsg.classList.add('hidden');
+
+      const form = document.getElementById('interest-form');
+      const submitBtn = document.getElementById('submit-btn');
+      document.getElementById('seats-input').value = seatQuantity;
+      document.getElementById('selected-trip-input').value = currentTrip === 'solan' ? "SOLAN → MANALI (23-26 Oct)" : "HAMIRPUR → MANALI (10-13 Dec)";
+
+      submitBtn.disabled = true;
+      try {
+        const response = await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(new FormData(form)).toString()
+        });
+      } catch (err) {
+        console.warn("Netlify form post caught", err);
+      }
+      submitBtn.disabled = false;
+
+      const randomSuffix = Math.floor(1000 + Math.random() * 9000);
+      const isSolan = currentTrip === 'solan';
+      const passId = isSolan ? `SHL-OCT-${randomSuffix}` : `HMR-DEC-${randomSuffix}`;
+
+      currentPassData = {
+        passId,
+        trip: isSolan ? "Solan → Manali & Tosh" : "Hamirpur → Manali & Sissu",
+        dates: isSolan ? "23rd Oct – 26th Oct" : "10th Dec – 13th Dec",
+        name,
+        phone,
+        college,
+        pickup,
+        seats: seatQuantity,
+        totalFare: isSolan ? (seatQuantity * solanFare) : (seatQuantity * hamirpurFare),
+        isConfirmed: isSolan,
+        timestamp: new Date().toISOString()
+      };
+
+      try {
+        localStorage.setItem('hmr_expedition_pass', JSON.stringify(currentPassData));
+      } catch (err) {}
+
+      renderDigitalPass(currentPassData);
+    }
+
+    function renderDigitalPass(data) {
+      const isSolan = data.trip.includes("Solan");
+
+      document.getElementById('pass-ref-id').textContent = data.passId;
+      document.getElementById('pass-student-name').textContent = data.name;
+      document.getElementById('pass-phone').textContent = `+91 ${data.phone}`;
+      document.getElementById('pass-college').textContent = data.college;
+      document.getElementById('pass-seats').textContent = `${data.seats} Seat${data.seats > 1 ? 's' : ''}`;
+      document.getElementById('pass-pickup').textContent = data.pickup;
+      document.getElementById('pass-trip-title').textContent = data.trip + ` (${data.dates})`;
+
+      if (isSolan) {
+        document.getElementById('pass-circuit-subtitle').textContent = "SOLAN → MANALI & TOSH · 23-26 OCT";
+        document.getElementById('pass-success-msg').textContent = "BOOKING CONFIRMED! OFFICIAL SOLAN PASS ISSUED";
+        document.getElementById('pass-barcode-text').textContent = "23-26 OCT SOLAN BATCH CONFIRMED";
+        document.getElementById('pass-strip-footer').textContent = "SHOOLINI ➔ MANALI ➔ TOSH ➔ KASOL";
+        document.getElementById('pass-couple-reminder').classList.remove('hidden');
+      } else {
+        document.getElementById('pass-circuit-subtitle').textContent = "OFFICIAL PRIORITY INTEREST PASS · 10-13 DEC";
+        document.getElementById('pass-success-msg').textContent = "INTEREST CONFIRMED! PRIORITY PASS ISSUED (₹0 CHARGED)";
+        document.getElementById('pass-barcode-text').textContent = "10-13 DEC PASS VALIDATED";
+        document.getElementById('pass-strip-footer').textContent = "HAMIRPUR ➔ SISSU ➔ KASOL EXPEDITION";
+        document.getElementById('pass-couple-reminder').classList.add('hidden');
+      }
+
+      document.getElementById('interest-form').classList.add('hidden');
+      document.getElementById('success-screen').classList.remove('hidden');
+      document.getElementById('registration-card').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function resetBookingForm() {
+      try {
+        localStorage.removeItem('hmr_expedition_pass');
+      } catch(e) {}
+      document.getElementById('success-screen').classList.add('hidden');
+      document.getElementById('interest-form').classList.remove('hidden');
+    }
+
+    function pushPassToWhatsApp() {
+      if (!currentPassData) return;
+      
+      const isSolan = currentPassData.trip.includes("Solan");
+      const message = 
+        `*OFFICIAL STUDENT EXPEDITION PASS*\n` +
+        `----------------------------------------\n` +
+        `• Selected Trip: ${currentPassData.trip}\n` +
+        `• Batch Dates: ${currentPassData.dates}\n` +
+        `• Pass Ref ID: ${currentPassData.passId}\n` +
+        `• Status: ${isSolan ? "Confirmed Batch Booking" : "Interest Registered (₹0 Due Today)"}\n` +
+        `• Student Name: ${currentPassData.name}\n` +
+        `• WhatsApp: +91 ${currentPassData.phone}\n` +
+        `• Institution: ${currentPassData.college}\n` +
+        `• Reserved: ${currentPassData.seats} student seat(s)\n` +
+        `• Boarding Point: ${currentPassData.pickup}\n` +
+        `• Total Package: ₹${currentPassData.totalFare.toLocaleString('en-IN')}\n` +
+        (isSolan ? `• Note: Couples requiring a private room will have additional charges.\n` : ``) +
+        `----------------------------------------\n` +
+        (isSolan 
+          ? `Hi Team! I have submitted my booking for the Shoolini University (Solan) batch (23–26 Oct). Please confirm my squad seats and let me know the final coordinator details.`
+          : `Hi Team! I registered interest for the Hamirpur 10-13 December winter batch with ₹0 upfront. Please alert me on WhatsApp once the batch confirms.`
+        );
+
+      const encoded = encodeURIComponent(message);
+      const url = `https://wa.me/${coordWhatsApp}?text=${encoded}`;
+      window.open(url, '_blank');
+    }
+
+    // Auto-restore saved pass on reload
+    window.addEventListener('DOMContentLoaded', () => {
+      setTripMode('solan'); // Shoolini (Solan) set as default
+      try {
+        const saved = localStorage.getItem('hmr_expedition_pass');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (parsed && parsed.passId) {
+            currentPassData = parsed;
+            renderDigitalPass(parsed);
+          }
+        }
+      } catch(e) {}
+    });
+
+    // Lightbox modal functionality
+    const archivePhotos = [
+      {
+        src: "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=85",
+        tag: "ARCHIVE #01 // TOSH VALLEY & PARVATI PEAKS",
+        caption: "Scenic wooden village architecture and panoramic mountain crests in Tosh Valley."
+      },
+      {
+        src: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1600&q=85",
+        tag: "ARCHIVE #02 // SISSU HIGHLANDS",
+        caption: "Sissu snowfields and frozen waterfall viewpoint across the Lahaul valley."
+      },
+      {
+        src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=85",
+        tag: "ARCHIVE #03 // PARVATI RIVER",
+        caption: "Glacial river currents flowing through Kasol and Manikaran."
+      },
+      {
+        src: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=85",
+        tag: "ARCHIVE #04 // HADIMBA TEMPLE WOODS",
+        caption: "Centuries-old cedar and deodar canopy trails leading towards Old Manali."
+      },
+      {
+        src: "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1600&q=85",
+        tag: "ARCHIVE #05 // KASOL RIVERBANK CAMPFIRE",
+        caption: "Parvati riverbank private campsite, pine bonfire, and curated music evening."
+      }
+    ];
+
+    const photoModal = document.getElementById('photo-modal');
+    const modalImage = document.getElementById('modal-image');
+    const modalCaption = document.getElementById('modal-caption');
+    const modalTag = document.getElementById('modal-tag');
+
+    function openPhotoModal(index) {
+      if (archivePhotos[index]) {
+        modalImage.src = archivePhotos[index].src;
+        modalCaption.textContent = archivePhotos[index].caption;
+        modalTag.textContent = archivePhotos[index].tag;
+        photoModal.classList.remove('hidden');
+        photoModal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closePhotoModal(e) {
+      if (e.target === photoModal) dismissPhotoModal();
+    }
+
+    function dismissPhotoModal() {
+      photoModal.classList.add('hidden');
+      photoModal.classList.remove('flex');
+      modalImage.src = '';
+      document.body.style.overflow = 'auto';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') dismissPhotoModal();
+    });
+
+    // Auto-hide mobile dock when booking section is in viewport
+    const registerBlock = document.getElementById('booking-section');
+    const mobileDock = document.getElementById('mobile-sticky-dock');
+
+    window.addEventListener('scroll', () => {
+      if (!registerBlock || !mobileDock) return;
+      const rect = registerBlock.getBoundingClientRect();
+      const inView = (rect.top <= window.innerHeight && rect.bottom >= 0);
+      if (inView) {
+        mobileDock.classList.add('translate-y-full');
+      } else {
+        mobileDock.classList.remove('translate-y-full');
+      }
+    });
+  </script>
+</body>
+</html>
